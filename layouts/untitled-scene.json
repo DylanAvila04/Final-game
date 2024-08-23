@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.3553434558816985,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -664,6 +664,25 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Collision_Wall",
+      "type": "TileMap::CollisionMask",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "tilemapJsonFile": "",
+        "tilesetJsonFile": "",
+        "collisionMaskTag": "",
+        "debugMode": false,
+        "fillColor": "255;255;255",
+        "outlineColor": "255;255;255",
+        "fillOpacity": 64,
+        "outlineOpacity": 128,
+        "outlineSize": 1
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -671,6 +690,9 @@
     "children": [
       {
         "objectName": "Main_Character"
+      },
+      {
+        "objectName": "Collision_Wall"
       }
     ]
   },
@@ -694,6 +716,33 @@
           },
           "parameters": [
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Collision_Wall",
+            "Main_Character",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "Main_Character"
           ]
         }
       ]
