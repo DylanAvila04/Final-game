@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -63,7 +63,179 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h9.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h10.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h11.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h12.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h13.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h13.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h14.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h14.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h15.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h15.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h16.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h16.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h17.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h17.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h18.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h21.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h21.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h22.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h22.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h23.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h23.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h24.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h24.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h25.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h25.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Left.png\"}",
+        "name": "Left",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rogue_ow_sprite_by_gogoat1_deah8h26.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"rogue_ow_sprite_by_gogoat1_deah8h26.png\",\"extension\":\".png\"}",
+        "name": "rogue_ow_sprite_by_gogoat1_deah8h26.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
