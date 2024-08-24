@@ -1614,6 +1614,18 @@
           "parameters": [
             "Water_Orb"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "hitHurt.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
