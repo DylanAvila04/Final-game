@@ -18,29 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.68977821401045,
+    "zoomFactor": 0.5653158055126319,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "eff0f3e4-4809-43a4-8791-97631ef9dd4e",
-      "width": 1917,
-      "x": 2,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -50,8 +33,8 @@
       "name": "Main_Character",
       "persistentUuid": "9acb14dd-cc31-4981-826d-0b3edfa539e6",
       "width": 0,
-      "x": 164,
-      "y": 138,
+      "x": 729,
+      "y": 598,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -59,15 +42,33 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 331,
       "keepRatio": true,
-      "layer": "Collision",
-      "name": "Collision_Wall",
-      "persistentUuid": "9e4df821-077d-4209-bb1f-99e23cdbe9fc",
-      "width": 0,
-      "x": 1068,
-      "y": 403,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "0aeec5fd-44e0-41c8-b37c-c97832cd77d2",
+      "width": 480,
+      "x": 608,
+      "y": 515,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 230,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Square",
+      "persistentUuid": "a72dec71-7266-46c6-83c3-42d7bafa8c13",
+      "width": 108,
+      "x": 942,
+      "y": 563,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -112,7 +113,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h9.png",
+                  "image": "Down",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -148,7 +149,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h10.png",
+                  "image": "Down2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -184,7 +185,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h11.png",
+                  "image": "Down3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -220,7 +221,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h12.png",
+                  "image": "Down4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -269,7 +270,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up",
+                  "image": "Up10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -305,7 +306,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up2",
+                  "image": "Up11",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -341,7 +342,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up3",
+                  "image": "Up12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -377,7 +378,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up4",
+                  "image": "Up13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -426,7 +427,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h17.png",
+                  "image": "Left2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -462,7 +463,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h18.png",
+                  "image": "Left3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -498,7 +499,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Left",
+                  "image": "Left4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -534,7 +535,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h26.png",
+                  "image": "Left5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -583,7 +584,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h21.png",
+                  "image": "Right",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -619,7 +620,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h22.png",
+                  "image": "Right2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -655,7 +656,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h23.png",
+                  "image": "Right3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -691,7 +692,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h24.png",
+                  "image": "Right4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -775,7 +776,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Collision_Object",
+      "name": "Square",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -783,7 +784,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Collision Object",
+          "name": "Square",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -793,7 +794,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "Square",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -801,28 +802,28 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12,
+                    "y": 12
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 30,
-                        "y": 20
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 34,
-                        "y": 20
+                        "x": 16,
+                        "y": 0
                       },
                       {
-                        "x": 34,
-                        "y": 24
+                        "x": 16,
+                        "y": 16
                       },
                       {
-                        "x": 30,
-                        "y": 24
+                        "x": 0,
+                        "y": 16
                       }
                     ]
                   ]
@@ -844,21 +845,19 @@
         "objectName": "Main_Character"
       },
       {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "Temporary_Floor"
+      },
+      {
+        "objectName": "Square"
+      },
+      {
         "folderName": "Obstacles"
       },
       {
-        "objectName": "Collision_Object"
-      },
-      {
-        "folderName": "Background",
-        "children": [
-          {
-            "objectName": "NewTiledSprite"
-          },
-          {
-            "objectName": "Temporary_Floor"
-          }
-        ]
+        "folderName": "Background"
       }
     ]
   },
@@ -1131,6 +1130,34 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Main_Character",
+            "Square",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "Main_Character",
+            "Main_Character",
+            "Player.Y()",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1189,7 +1216,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Collision",
+      "name": "Background",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1217,12 +1244,12 @@
       "ambientLightColorR": 200,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Background",
+      "name": "Collision",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
