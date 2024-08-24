@@ -1565,10 +1565,18 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
             "Object_Shot_by_Gun"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "_Bullet__or_Fire_Water_Etc"
           ]
         }
       ]
@@ -1677,10 +1685,11 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
-            "_Bullet__or_Fire_Water_Etc"
+            "_Bullet__or_Fire_Water_Etc",
+            ""
           ]
         }
       ]
