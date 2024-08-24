@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126319,
+    "zoomFactor": 1.7458023987467828,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,7 +30,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Main_Character",
+      "name": "Player",
       "persistentUuid": "9acb14dd-cc31-4981-826d-0b3edfa539e6",
       "width": 0,
       "x": 729,
@@ -64,12 +64,45 @@
       "height": 230,
       "keepRatio": true,
       "layer": "",
-      "name": "Square",
+      "name": "Collision",
       "persistentUuid": "a72dec71-7266-46c6-83c3-42d7bafa8c13",
       "width": 108,
       "x": 942,
       "y": 563,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Object_Shot_by_Gun",
+      "persistentUuid": "e73ec772-b389-44d5-878d-cb1c1229a66a",
+      "width": 50,
+      "x": 940,
+      "y": 793,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Gun",
+      "persistentUuid": "c456d96b-b71d-42ff-9b2a-4a7f58747e22",
+      "width": 0,
+      "x": 451,
+      "y": 656,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -79,7 +112,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Main_Character",
+      "name": "Player",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -114,7 +147,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Down",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 16,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -150,7 +189,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Down2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 16,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -186,7 +231,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Down3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 16,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -222,7 +273,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Down4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 16,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -271,7 +328,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Up10",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 48,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -307,7 +370,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Up11",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 48,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -343,7 +412,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Up12",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 48,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -379,7 +454,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Up13",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 48,
+                      "y": 44
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -428,7 +509,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Left2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 26,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -464,7 +551,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Left3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 26,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -500,7 +593,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Left4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 26,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -536,7 +635,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Left5",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 26,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -585,7 +690,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Right",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 38,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -621,7 +732,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Right2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 38,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -657,7 +774,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Right3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 38,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -693,7 +816,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Right4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Gun",
+                      "x": 38,
+                      "y": 45
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 32,
@@ -776,7 +905,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Square",
+      "name": "Collision",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -833,6 +962,225 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Gun",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "f06936e9c60e8d2b498bc9b13df90335ce4f8bf9db7c4901562cd735033a04bc_Gun.png",
+                  "points": [
+                    {
+                      "name": "BulletPoint",
+                      "x": 13.5,
+                      "y": 3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 8
+                      },
+                      {
+                        "x": 0,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Object_Shot_by_Gun",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "_Bullet__or_Fire_Water_Etc",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      },
+                      {
+                        "x": 0,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -842,7 +1190,13 @@
         "objectName": "Collision_Wall"
       },
       {
-        "objectName": "Main_Character"
+        "objectName": "Player"
+      },
+      {
+        "objectName": "Gun"
+      },
+      {
+        "objectName": "_Bullet__or_Fire_Water_Etc"
       },
       {
         "objectName": "NewTiledSprite"
@@ -851,7 +1205,10 @@
         "objectName": "Temporary_Floor"
       },
       {
-        "objectName": "Square"
+        "objectName": "Collision"
+      },
+      {
+        "objectName": "Object_Shot_by_Gun"
       },
       {
         "folderName": "Obstacles"
@@ -900,7 +1257,7 @@
           },
           "parameters": [
             "",
-            "Main_Character",
+            "Player",
             "",
             "",
             ""
@@ -924,7 +1281,7 @@
             "value": "ActivateBehavior"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "TopDownMovement",
             "yes"
           ]
@@ -940,7 +1297,7 @@
           },
           "parameters": [
             "Collision_Wall",
-            "Main_Character",
+            "Player",
             "",
             "",
             ""
@@ -953,7 +1310,7 @@
             "value": "Arreter"
           },
           "parameters": [
-            "Main_Character"
+            "Player"
           ]
         }
       ]
@@ -966,7 +1323,7 @@
             "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "TopDownMovement",
             "\"Up\""
           ]
@@ -978,7 +1335,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "Animation",
             "=",
             "\"Up\""
@@ -994,7 +1351,7 @@
             "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "TopDownMovement",
             "\"Down\""
           ]
@@ -1006,7 +1363,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "Animation",
             "=",
             "\"Down\""
@@ -1022,7 +1379,7 @@
             "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "TopDownMovement",
             "\"Left\""
           ]
@@ -1034,7 +1391,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "Animation",
             "=",
             "\"Left\""
@@ -1050,7 +1407,7 @@
             "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "TopDownMovement",
             "\"Right\""
           ]
@@ -1062,7 +1419,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "Animation",
             "=",
             "\"Right\""
@@ -1079,7 +1436,7 @@
             "value": "TopDownMovementBehavior::IsMoving"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "TopDownMovement"
           ]
         }
@@ -1090,7 +1447,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "Animation"
           ]
         },
@@ -1099,7 +1456,7 @@
             "value": "ChangeSprite"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "=",
             "0"
           ]
@@ -1114,7 +1471,7 @@
             "value": "TopDownMovementBehavior::IsMoving"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "TopDownMovement"
           ]
         }
@@ -1125,7 +1482,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
           },
           "parameters": [
-            "Main_Character",
+            "Player",
             "Animation"
           ]
         }
@@ -1140,8 +1497,8 @@
             "value": "SeparateFromObjects"
           },
           "parameters": [
-            "Main_Character",
-            "Square",
+            "Player",
+            "Collision",
             ""
           ]
         },
@@ -1151,10 +1508,179 @@
           },
           "parameters": [
             "Main_Character",
-            "Main_Character",
+            "Player",
             "Player.Y()",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Gun",
+            "=",
+            "Player.PointX(\"Gun\")",
+            "=",
+            "Player.PointY(\"Gun\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "Gun",
+            "CursorX()",
+            "CursorY()",
+            "0",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "_Bullet__or_Fire_Water_Etc",
+            "Object_Shot_by_Gun",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Object_Shot_by_Gun"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            ">",
+            "CursorX()"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipY"
+          },
+          "parameters": [
+            "Gun",
+            "Flippable",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Player",
+            "<",
+            "CursorX()"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipY"
+          },
+          "parameters": [
+            "Gun",
+            "Flippable",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::Fire"
+          },
+          "parameters": [
+            "Gun",
+            "FireBullet",
+            "Gun.PointX(\"BulletPoint\")",
+            "Gun.PointY(\"BulletPoint\")\n",
+            "_Bullet__or_Fire_Water_Etc",
+            "Gun.Angle()",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "_Bullet__or_Fire_Water_Etc",
+            "Collision",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "_Bullet__or_Fire_Water_Etc"
           ]
         }
       ]
@@ -1280,6 +1806,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
     },
     {
       "name": "Flippable",
