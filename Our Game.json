@@ -608,6 +608,58 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Grey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "50c2d6c8b76eaca8555e95cc08f0e9e64ac8b420fc676136f2b9adf763cc7188_Wall Grey.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Wall/50c2d6c8b76eaca8555e95cc08f0e9e64ac8b420fc676136f2b9adf763cc7188_Wall Grey.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Corner Front Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9b737eeded9b7ff7cbba567cc7cb5d5e177f97b4e097213a4c3bebc7ab5f49a0_Wall Corner Front Left.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/9b737eeded9b7ff7cbba567cc7cb5d5e177f97b4e097213a4c3bebc7ab5f49a0_Wall Corner Front Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Brick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7acc54ff91d3d5e0a7b7e8b02e7bd5f691627aeb22ac36073d9098c1bd7fd9d7_Wall Brick.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Wall/7acc54ff91d3d5e0a7b7e8b02e7bd5f691627aeb22ac36073d9098c1bd7fd9d7_Wall Brick.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Brick Flat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2982a2d92818e1d6aaa0d818cee12569b6259f0ce5372dd402262a17be17f8b2_Wall Brick Flat.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Wall/2982a2d92818e1d6aaa0d818cee12569b6259f0ce5372dd402262a17be17f8b2_Wall Brick Flat.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

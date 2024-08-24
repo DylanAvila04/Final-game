@@ -61,15 +61,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 230,
+      "height": 259,
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
       "persistentUuid": "a72dec71-7266-46c6-83c3-42d7bafa8c13",
-      "width": 108,
-      "x": 942,
-      "y": 563,
-      "zOrder": 3,
+      "width": 132,
+      "x": 940,
+      "y": 534,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,14 +111,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1,
+      "height": 258,
       "keepRatio": true,
       "layer": "",
-      "name": "Wall",
-      "persistentUuid": "92809003-507b-4e23-97fa-6b4b47b3c998",
-      "width": 1,
-      "x": 1693,
-      "y": 742,
+      "name": "NewTiledSprite",
+      "persistentUuid": "989ecc2a-a468-4dba-9cfd-654103381c39",
+      "width": 131,
+      "x": 941,
+      "y": 534,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1202,18 +1202,14 @@
     },
     {
       "assetStoreId": "",
-      "name": "Wall",
-      "type": "TileMap::SimpleTileMap",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "2982a2d92818e1d6aaa0d818cee12569b6259f0ce5372dd402262a17be17f8b2_Wall Brick Flat.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "a490118d306d8a2db9ddddcc8bbfc28a5c2a0f0f07c6bf76958db479f9c1d907_Wall Grey Flat.png",
-        "rowCount": 8,
-        "columnCount": 8,
-        "tileSize": 8,
-        "tilesWithHitBox": ""
-      }
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1250,7 +1246,7 @@
         "folderName": "Background"
       },
       {
-        "objectName": "Wall"
+        "objectName": "NewTiledSprite"
       }
     ]
   },
@@ -1297,6 +1293,14 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Collision"
           ]
         }
       ]
