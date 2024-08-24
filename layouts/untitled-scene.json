@@ -50,8 +50,8 @@
       "name": "Main_Character",
       "persistentUuid": "9acb14dd-cc31-4981-826d-0b3edfa539e6",
       "width": 0,
-      "x": 2,
-      "y": 2,
+      "x": 164,
+      "y": 138,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,7 +95,7 @@
           "maxSpeed": 50,
           "movementAngleOffset": 0,
           "name": "TopDownMovement",
-          "rotateObject": true,
+          "rotateObject": false,
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
@@ -106,9 +106,9 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -116,14 +116,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -152,14 +152,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -188,14 +188,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -224,14 +224,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -263,24 +263,24 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h13.png",
+                  "image": "Up",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -305,18 +305,18 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h15.png",
+                  "image": "Up2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -341,18 +341,18 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h16.png",
+                  "image": "Up3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -377,18 +377,18 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rogue_ow_sprite_by_gogoat1_deah8h25.png",
+                  "image": "Up4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -420,9 +420,9 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -430,14 +430,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -466,14 +466,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -502,14 +502,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -538,14 +538,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -577,9 +577,9 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -587,14 +587,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -623,14 +623,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -659,14 +659,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -695,14 +695,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 52
                   },
                   "customCollisionMask": [
                     [
@@ -771,6 +771,67 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Collision_Object",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Collision Object",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 20
+                      },
+                      {
+                        "x": 34,
+                        "y": 20
+                      },
+                      {
+                        "x": 34,
+                        "y": 24
+                      },
+                      {
+                        "x": 30,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -784,6 +845,9 @@
       },
       {
         "folderName": "Obstacles"
+      },
+      {
+        "objectName": "Collision_Object"
       },
       {
         "folderName": "Background",
@@ -841,6 +905,29 @@
             "",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Main_Character",
+            "TopDownMovement",
+            "yes"
           ]
         }
       ]
@@ -986,8 +1073,64 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "Main_Character",
+            "TopDownMovement"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "Main_Character",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "Main_Character",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::IsMoving"
+          },
+          "parameters": [
+            "Main_Character",
+            "TopDownMovement"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Main_Character",
+            "Animation"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
