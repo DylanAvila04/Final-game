@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.7458023987467828,
+    "zoomFactor": 1.4790395861757404,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -47,7 +47,7 @@
       "height": 331,
       "keepRatio": true,
       "layer": "",
-      "name": "NewTiledSprite",
+      "name": "Temporary_Background_Floor",
       "persistentUuid": "0aeec5fd-44e0-41c8-b37c-c97832cd77d2",
       "width": 480,
       "x": 608,
@@ -106,6 +106,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "92809003-507b-4e23-97fa-6b4b47b3c998",
+      "width": 1,
+      "x": 1693,
+      "y": 742,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -119,6 +136,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 900000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -128,9 +147,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 50,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -894,7 +911,7 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
+      "name": "Temporary_Background_Floor",
       "texture": "fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1005,11 +1022,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "f06936e9c60e8d2b498bc9b13df90335ce4f8bf9db7c4901562cd735033a04bc_Gun",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -1124,7 +1142,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "_Bullet__or_Fire_Water_Etc",
+      "name": "Water_Orb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1181,6 +1199,21 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Wall",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "a490118d306d8a2db9ddddcc8bbfc28a5c2a0f0f07c6bf76958db479f9c1d907_Wall Grey Flat.png",
+        "rowCount": 8,
+        "columnCount": 8,
+        "tileSize": 8,
+        "tilesWithHitBox": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1196,10 +1229,10 @@
         "objectName": "Gun"
       },
       {
-        "objectName": "_Bullet__or_Fire_Water_Etc"
+        "objectName": "Water_Orb"
       },
       {
-        "objectName": "NewTiledSprite"
+        "objectName": "Temporary_Background_Floor"
       },
       {
         "objectName": "Temporary_Floor"
@@ -1215,6 +1248,9 @@
       },
       {
         "folderName": "Background"
+      },
+      {
+        "objectName": "Wall"
       }
     ]
   },
@@ -1554,7 +1590,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "_Bullet__or_Fire_Water_Etc",
+            "Water_Orb",
             "Object_Shot_by_Gun",
             "",
             "",
@@ -1576,7 +1612,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "_Bullet__or_Fire_Water_Etc"
+            "Water_Orb"
           ]
         }
       ]
@@ -1646,6 +1682,12 @@
             "",
             "Left"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1658,9 +1700,21 @@
             "FireBullet",
             "Gun.PointX(\"BulletPoint\")",
             "Gun.PointY(\"BulletPoint\")\n",
-            "_Bullet__or_Fire_Water_Etc",
+            "Water_Orb",
             "Gun.Angle()",
             "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Water Sound Effect.wav",
+            "",
+            "",
             ""
           ]
         }
@@ -1674,7 +1728,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "_Bullet__or_Fire_Water_Etc",
+            "Water_Orb",
             "Collision",
             "",
             "",
@@ -1688,11 +1742,16 @@
             "value": "Delete"
           },
           "parameters": [
-            "_Bullet__or_Fire_Water_Etc",
+            "Water_Orb",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
