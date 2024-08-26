@@ -660,6 +660,138 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Wall/2982a2d92818e1d6aaa0d818cee12569b6259f0ce5372dd402262a17be17f8b2_Wall Brick Flat.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Orb_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Orb_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Orbs/56d4ace5a22e0292d1c580d0c1fff0456390a12aa51aa7ba953e1836935c02b7_Red Orb_No Shadow.png",
+          "name": "Red Orb_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Orb_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Orb_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Orbs/0f6136d5704ee6fcb2fcf427a0ad1cbfd12a248da6fde77d778315d7b5ef39bd_Red Orb_Shadow.png",
+          "name": "Red Orb_Shadow.png"
+        }
+      },
+      {
+        "file": "fireball-whoosh-2-179126.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fireball-whoosh-2-179126.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Treasure Chest_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treasure Chest_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/7f362b8cb571527bfc063b4a140464df6850fdac2c0ac1b95819ccbe0772cae6_Treasure Chest_No Shadow.png",
+          "name": "Treasure Chest_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Treasure Chest_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treasure Chest_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/29c5fdc5fe498d49e530a9aaf66a0089ff165b78322ab192e2fd32c3429d023e_Treasure Chest_Shadow.png",
+          "name": "Treasure Chest_Shadow.png"
+        }
+      },
+      {
+        "file": "item-pickup-37089.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "item-pickup-37089.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lightning spell.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lightning spell.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Verboten Arcane Stash/Spells/64a9e07879cc0df3c857116ab45ea82eb3c77f555e71d0342eb088073d620e8f_lightning spell.png",
+          "name": "lightning spell.png"
+        }
+      },
+      {
+        "file": "lightening-bang-impact-40580.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lightening-bang-impact-40580.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "lightning-strike-jeff-kaale-1-00-02.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lightning-strike-jeff-kaale-1-00-02.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squid Space Enemy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Squid Space Enemy.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Character/151b378b6837655c092c49ae0bd9905367b185e36e3e08f80ee68184eefced5a_Squid Space Enemy.png",
+          "name": "Squid Space Enemy.png"
+        }
+      },
+      {
+        "file": "assets/33 - adventure cats pirate radio.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "d9fa2f9e35959696723710be864b3d250deb4e5a3fa353adb0a3272dddc03a45_33 - adventure cats pirate radio.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/d9fa2f9e35959696723710be864b3d250deb4e5a3fa353adb0a3272dddc03a45_33 - adventure cats pirate radio.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -669,7 +801,14 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "element",
+      "type": "string",
+      "value": "Fire"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
