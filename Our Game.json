@@ -812,7 +812,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/tutorial-screen"
     }
   ],
   "externalEvents": [],
