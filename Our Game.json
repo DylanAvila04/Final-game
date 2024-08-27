@@ -818,6 +818,118 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/2dda7f1aa5cac6d167f2833febbe1982b833183664653e8fac352579113982df_Square Blue Toggle_On.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Background Hole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Background Hole.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/e892f2a9d2fca2c95c8f124cfd88d5dbd4f8357a0747e6a53f995f2f5d0ed47f_Cave Background Hole.png",
+          "name": "Cave Background Hole.png"
+        }
+      },
+      {
+        "file": "assets/Floor Dirt Grave.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Floor Dirt Grave.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Halloween Pack/Ground/eb6d393be2c3393c2da4faaa4009917ca735c08a9a2b62cabe75059b2f3d16e1_Floor Dirt Grave.glb",
+          "name": "Floor Dirt Grave.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Dirt4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Dirt4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/961824ae292894d8bdf79f07d880795211e4a33d4a297d9170c64c2593b73b07_tiled_Dirt4.png",
+          "name": "tiled_Dirt4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water cave dark desat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f51019739dd386df9420fba0612cc7751bc3cdbcea969060adeff3cb810dd569_water cave dark desat.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/f51019739dd386df9420fba0612cc7751bc3cdbcea969060adeff3cb810dd569_water cave dark desat.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Merged Full Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Merged Full Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Backgrounds/34a4293e3c14f3b014e5d97a5faee8d20ad65701e29c0d651fba8e300188c595_Merged Full Background.png",
+          "name": "Merged Full Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hand Casting Magic_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6c6e5f94ca48d8f9c95da6d6208aa89f8f395fd8f057eb4abf9ed64286bde533_Hand Casting Magic_Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/6c6e5f94ca48d8f9c95da6d6208aa89f8f395fd8f057eb4abf9ed64286bde533_Hand Casting Magic_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Creepy Hallow.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5a4090e69f77a0e9c3d5c48043175cd1d322a52c702428a784878cf9e946bd86_Creepy Hallow.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Horror/5a4090e69f77a0e9c3d5c48043175cd1d322a52c702428a784878cf9e946bd86_Creepy Hallow.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Ground Layer 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Ground Layer 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Elements/bb32adc16882f77c146e1ab2468941d5dc7efb2c166e1a3c2a98fcb0474eb331_tiled_Ground Layer 2.png",
+          "name": "tiled_Ground Layer 2.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1870,9 +1982,9 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 226,
+        "g": 144,
+        "r": 74
       },
       "content": {
         "bold": false,
@@ -1892,7 +2004,7 @@
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
-        "color": "0;0;0"
+        "color": "74;144;226"
       }
     },
     {
@@ -2532,6 +2644,118 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "56fbb07c61ec330cdc6cd85ce572a339ccb887fe8776b6fc73d970fe4a10e46d",
+      "name": "CaveEntrance",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Entrance.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "6f0897764a8688a183e3e7b1f62e8adc35ed6cdbc84d78a4a9e0cf44ba6b1aa5",
+      "height": 512,
+      "name": "Dirt4",
+      "texture": "f51019739dd386df9420fba0612cc7751bc3cdbcea969060adeff3cb810dd569_water cave dark desat.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Chest",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press E to interact with \nenvironment and chest\n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press E to interact with \nenvironment and chest\n",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "248;231;28"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2590,6 +2814,15 @@
       },
       {
         "objectName": "Fire_Squid"
+      },
+      {
+        "objectName": "CaveEntrance"
+      },
+      {
+        "objectName": "Dirt4"
+      },
+      {
+        "objectName": "Chest"
       }
     ]
   },
@@ -2605,15 +2838,15 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutorial-screen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/wake-up-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/the-cave"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial-screen"
     }
   ],
   "externalEvents": [],

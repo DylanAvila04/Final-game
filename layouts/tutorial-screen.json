@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3389693172845394,
+    "zoomFactor": 1.5289132892233266,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -504,47 +504,6 @@
       "assetStoreId": "",
       "bold": true,
       "italic": true,
-      "name": "Chest",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Press E to interact with \nchest and open it ",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 15,
-      "color": {
-        "b": 28,
-        "g": 231,
-        "r": 248
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Press E to interact with \nchest and open it ",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 15,
-        "color": "248;231;28"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
       "name": "Shoot_",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -719,9 +678,6 @@
         "objectName": "Keyboard_"
       },
       {
-        "objectName": "Chest"
-      },
-      {
         "objectName": "Shoot_"
       },
       {
@@ -803,7 +759,7 @@
           },
           "parameters": [
             "",
-            "d9fa2f9e35959696723710be864b3d250deb4e5a3fa353adb0a3272dddc03a45_33 - adventure cats pirate radio.aac",
+            "5a4090e69f77a0e9c3d5c48043175cd1d322a52c702428a784878cf9e946bd86_Creepy Hallow.aac",
             "",
             "",
             ""
@@ -2385,7 +2341,7 @@
               "parameters": [
                 "Player",
                 "TreasureChest",
-                "40",
+                "50",
                 ""
               ]
             },
