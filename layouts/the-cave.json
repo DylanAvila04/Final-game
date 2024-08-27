@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4753585087126934,
+    "zoomFactor": 0.6052222422205962,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,16 +27,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 137,
+      "depth": 1.0491803278688523,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "Player",
       "persistentUuid": "9338e86f-d44c-457c-8766-a40c304d43d6",
-      "width": 134,
-      "x": 43,
-      "y": 513,
-      "zOrder": 4,
+      "width": 67.14754098360655,
+      "x": 26,
+      "y": 351,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,14 +45,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 226,
+      "height": 62,
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
       "persistentUuid": "7e8a0567-b156-4c2b-b78f-394905d1d829",
-      "width": 520,
+      "width": 190,
       "x": -3,
-      "y": 175,
+      "y": 252,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,31 +62,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 200,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveEntrance",
-      "persistentUuid": "5f54bc47-73a6-4da9-b183-a4ebfb873ab2",
-      "width": 559,
-      "x": -2,
-      "y": 601,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
+      "height": 129,
       "keepRatio": true,
       "layer": "",
       "name": "Dirt4",
       "persistentUuid": "8264bd51-32b4-4f5d-acdc-68e91778f330",
-      "width": 1922,
-      "x": -5,
-      "y": -5,
+      "width": 1273,
+      "x": -39,
+      "y": 306,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -96,14 +79,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 127,
+      "height": 40,
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
       "persistentUuid": "43acbea7-7754-4ab1-9324-defd3b115cef",
-      "width": 522,
-      "x": 5,
-      "y": 268,
+      "width": 186,
+      "x": -8,
+      "y": 241,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,49 +96,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 127,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Collision",
-      "persistentUuid": "dc02fe20-ede8-46c7-bef3-218ea528967a",
-      "width": 522,
-      "x": 5,
-      "y": 670,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 188,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Collision",
-      "persistentUuid": "171ee9ca-de45-47a6-8b40-87da7633ad0d",
-      "width": 44,
-      "x": 524,
-      "y": 606,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 118,
+      "height": 54,
       "keepRatio": true,
       "layer": "",
       "name": "TreasureChest",
       "persistentUuid": "45425dba-d337-408e-8e5c-8c2e8a7b7962",
-      "width": 134,
-      "x": 672,
-      "y": 444,
-      "zOrder": 3,
+      "width": 48,
+      "x": 315,
+      "y": 309,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -164,23 +113,1138 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 75,
+      "height": 45,
       "keepRatio": true,
       "layer": "",
       "name": "Chest",
       "persistentUuid": "46b3ee8f-355d-4313-bee1-01fa442d22a4",
-      "width": 229,
-      "x": 641,
-      "y": 376,
-      "zOrder": 7,
+      "width": 173,
+      "x": 258,
+      "y": 275,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "c305aa4c-913f-4ab1-a245-13b4753a397f",
+      "width": 189,
+      "x": -2,
+      "y": 170,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "7c3d9908-090f-408d-8faa-53b671d36954",
+      "width": 189,
+      "x": 187,
+      "y": 169,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "9536a255-2c51-476b-8d60-6a5e0653de11",
+      "width": 190,
+      "x": 187,
+      "y": 258,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "dca242d9-8a4e-4b5e-8bc9-54c5390f8cf7",
+      "width": 186,
+      "x": 179,
+      "y": 241,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "df36722c-1682-40b5-9a0b-25c7d41ac73e",
+      "width": 189,
+      "x": 376,
+      "y": 169,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "580a52d9-7d2d-4d9d-9430-7189a999a2c0",
+      "width": 190,
+      "x": 377,
+      "y": 260,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "eaade9b0-f001-4a46-815d-afb219e6fcbf",
+      "width": 186,
+      "x": 374,
+      "y": 240,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "0428eac3-4f8b-4a9c-8353-0f63fb54575c",
+      "width": 189,
+      "x": 564,
+      "y": 168,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "65a9379b-1965-43d8-82a1-ead0de635f41",
+      "width": 190,
+      "x": 563,
+      "y": 266,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "d537c0ee-13ae-49e0-9f5d-8d88fa5d4d93",
+      "width": 186,
+      "x": 560,
+      "y": 241,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "95863ff7-48c2-470d-943d-9a3f0b1f5d2c",
+      "width": 189,
+      "x": 750,
+      "y": 166,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "af82aba4-fa40-4fe6-bbea-a473e19b7a14",
+      "width": 190,
+      "x": 751,
+      "y": 254,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 308,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "7f35c580-1eb8-44b5-a0f7-a7776aee55b4",
+      "width": 1457,
+      "x": -218,
+      "y": -2,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 785,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "11af454f-8ec1-46b5-843a-1c53d91f5610",
+      "width": 240,
+      "x": -238,
+      "y": -2,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "136a0729-a2da-4dad-a408-0c006dcee2d7",
+      "width": 189,
+      "x": -198,
+      "y": 168,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "c20d6ffd-f2b8-43e0-9789-dba1a5caf52d",
+      "width": 190,
+      "x": -196,
+      "y": 255,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "71bf5da7-339b-4262-b0a0-90d9ac7bd521",
+      "width": 190,
+      "x": 1,
+      "y": 384,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "8bf10060-6277-4dde-afca-bedae7c0df4e",
+      "width": 197,
+      "x": -9,
+      "y": 237,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "af73090a-37c7-48f9-83ea-d36ba8f46101",
+      "width": 189,
+      "x": 186,
+      "y": 233,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "99c6d9d6-fd1c-4f16-81ac-4db485d774a4",
+      "width": 190,
+      "x": 185,
+      "y": 383,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "77edd2a9-3a61-479b-84bd-88307ab3f68d",
+      "width": 189,
+      "x": 374,
+      "y": 236,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "2e24424c-8dcc-4e9f-9be7-c12f61eda52d",
+      "width": 190,
+      "x": 372,
+      "y": 384,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "42dce571-8d22-4611-819b-02f5b28727ad",
+      "width": 189,
+      "x": 563,
+      "y": 234,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 307,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "7c5ed8b6-30ec-4605-9a63-8b7d19cb978d",
+      "width": 1556,
+      "x": -419,
+      "y": 46,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 307,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "5dfbaf86-2895-4081-befd-9336e2c944c7",
+      "width": 1751,
+      "x": -502,
+      "y": 434,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 88,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "eb69e22e-aedd-4031-8f12-c61f43e41743",
+      "width": 147,
+      "x": -94,
+      "y": 328,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 307,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "246927de-4a06-4728-b3db-2cf53b917697",
+      "width": 175,
+      "x": -193,
+      "y": 193,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "659b6aed-2b60-4774-91f9-231336d30413",
+      "width": 12,
+      "x": 331,
+      "y": 316,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "d30fee4a-b9a9-463b-9b36-9cde8243af60",
+      "width": 190,
+      "x": 559,
+      "y": 400,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "51b7d146-dad0-49ca-aeab-a1562e84bfc2",
+      "width": 190,
+      "x": 746,
+      "y": 402,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "2737bd96-8e44-4fa4-91a3-8784c5586798",
+      "width": 189,
+      "x": 751,
+      "y": 220,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fire_Squid",
+      "persistentUuid": "e4303c80-41a1-4172-b26b-2a04aa4e4146",
+      "width": 59,
+      "x": 656,
+      "y": 322,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Gun",
+      "persistentUuid": "00fb9ed6-c01f-4a54-8e01-b7f0ad14d810",
+      "width": 0,
+      "x": 16,
+      "y": 358,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Shoot_",
+      "persistentUuid": "bf54bf2a-ae46-4be1-91e0-e65915585976",
+      "width": 0,
+      "x": 460,
+      "y": 295,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Water_Squid",
+      "persistentUuid": "dc2211fc-406d-4df1-b27d-c3e1eb0317f3",
+      "width": 56,
+      "x": 897,
+      "y": 321,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch",
+      "persistentUuid": "bdc442b4-ead1-4bbc-871c-dcc89e735240",
+      "width": 0,
+      "x": 733,
+      "y": 289,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": true,
+      "depth": 1,
+      "height": 67,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "0442c846-6581-48cb-9337-0ed0e67f9a8d",
+      "width": 132,
+      "x": 1140,
+      "y": 332,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 740,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "2df686d3-cb39-468a-a438-1ae1c31cbec5",
+      "width": 103,
+      "x": 1235,
+      "y": 1,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "2ebbbca7-d3a5-4a41-8a8f-b838cff585d1",
+      "width": 111,
+      "x": 1268,
+      "y": 126,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 302,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "e178afea-63d2-4c95-b760-03608fc8d2ba",
+      "width": 1335,
+      "x": 4,
+      "y": 434,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 248,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "dfe55c5b-975b-4abd-a2d3-c5d9ecdbf65c",
+      "width": 1335,
+      "x": 2,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "32210615-5ed0-433b-9581-b837f3205a04",
+      "width": 189,
+      "x": 939,
+      "y": 218,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "00b70b81-5d7a-4505-aeaa-c2854aa0ad9d",
+      "width": 189,
+      "x": 1126,
+      "y": 218,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "84c77d47-b86a-4039-af2f-2ff571ff22ea",
+      "width": 190,
+      "x": 934,
+      "y": 403,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveEntrance",
+      "persistentUuid": "d03b4b0a-4aae-4ef0-9580-e82172632f97",
+      "width": 190,
+      "x": 1122,
+      "y": 404,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 316,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "9812c01f-a1fe-4bcb-b463-6a7688b0e6d0",
+      "width": 139,
+      "x": 1239,
+      "y": 195,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TrailPurple",
+      "persistentUuid": "06f359ec-e35c-4a22-854d-a0ef2aa7686f",
+      "width": 0,
+      "x": 1120,
+      "y": 301,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 134,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TrailPurple",
+      "persistentUuid": "b0312f56-ecf8-43a6-bf10-8f7dc63904be",
+      "width": 128,
+      "x": -61,
+      "y": 300,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "fe7f314724f604d8c5d29560986b045237af9389ff578624976d45a7cf77e88b",
+      "name": "CaveUnderTile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Under Tile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9a6995a4525af5692eb5d3f73b029446d496e0a1d5528a48930ba7f707aa99e3",
+      "name": "CaveBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Rocks 1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rocks 2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ede84ce6b10b6c91e0d54325aeb8fde6c01178d4f3033df518c82755aaac7a9c",
+      "name": "InventorySlotRing7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Inventory Slot Ring7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 27
+                      },
+                      {
+                        "x": 5,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "166031ac90f27587240d46e81f078a235ede62eef7b9ae10cc7ba4be0b39233f",
+      "name": "TrailPurple",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Trail Purple.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 127
+                      },
+                      {
+                        "x": 32,
+                        "y": 127
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "CaveUnderTile"
+      },
+      {
+        "objectName": "CaveBackground"
+      },
+      {
+        "objectName": "InventorySlotRing7"
+      },
+      {
+        "objectName": "TrailPurple"
+      }
+    ]
   },
   "events": [
     {
@@ -292,15 +1356,6 @@
       "actions": [
         {
           "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "ChestQuestion",
-            "\"Chest Question \""
-          ]
-        },
-        {
-          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -325,18 +1380,7 @@
           },
           "parameters": [
             "",
-            "\"Timerfortext\"\n"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "LightningSpell",
-            "point",
-            "=",
-            "1"
+            "\"ECommand\""
           ]
         }
       ]
@@ -411,20 +1455,19 @@
           },
           "parameters": [
             "",
-            "\"Timerfortext\"",
+            "\"ECommand\"",
             ">=",
-            "2"
+            "4"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "HideLayer"
+            "value": "Cache"
           },
           "parameters": [
-            "",
-            "\"Chest Question \""
+            "Chest"
           ]
         }
       ]
@@ -434,14 +1477,156 @@
       "conditions": [
         {
           "type": {
-            "value": "LayerVisible"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "\"Chest Question \""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Fire_Squid",
+                "160",
+                ""
+              ]
+            }
           ]
         }
       ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Shoot_",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Firequestion\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Firequestion\"",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Shoot_"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Switchoption\"\n",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fire_orb",
+                "Water_Squid",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Water_Squid",
+                "125",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Switch",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Switchoption\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": []
     },
     {

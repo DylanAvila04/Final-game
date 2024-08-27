@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Wake up scene",
   "gdVersion": {
     "build": 209,
     "major": 5,
@@ -770,7 +770,7 @@
         "alwaysLoaded": false,
         "file": "assets/Squid Space Enemy.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Squid Space Enemy.png\",\"extension\":\".png\"}",
         "name": "Squid Space Enemy.png",
         "smoothed": false,
         "userAdded": false,
@@ -797,7 +797,7 @@
         "alwaysLoaded": false,
         "file": "assets/Cave Entrance.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Cave Entrance.png\",\"extension\":\".png\"}",
         "name": "Cave Entrance.png",
         "smoothed": false,
         "userAdded": false,
@@ -929,6 +929,111 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Elements/bb32adc16882f77c146e1ab2468941d5dc7efb2c166e1a3c2a98fcb0474eb331_tiled_Ground Layer 2.png",
           "name": "tiled_Ground Layer 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Under Tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Under Tile.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/95ba703db10c28440e0e9d52ab792c4af621ad2833911f5dde01c90774994a6b_Cave Under Tile.png",
+          "name": "Cave Under Tile.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Background_Rocks 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Background_Rocks 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/fe7c22242369d13b444009ca1b60cc71825423ccffa489a6456fc27ac8bc6344_Cave Background_Rocks 1.png",
+          "name": "Cave Background_Rocks 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Background_Rocks 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Background_Rocks 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/b637b16fab508424f70ee1e2b088940abb81db4ca6e6583cdd52b4e8c0ac3c80_Cave Background_Rocks 2.png",
+          "name": "Cave Background_Rocks 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Cave Background_Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Cave Background_Blank.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/a7415ae7b9e48d3ce5015fec4ef9ea4cdbb0bee3832cdca940276fe5648aad93_tiled_Cave Background_Blank.png",
+          "name": "tiled_Cave Background_Blank.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Entrance2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cave Entrance",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Inventory Slot Ring7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Inventory Slot Ring7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/693c119026ad98b24e0d7071c853713c12a4a56c4e7c1270345b412e4e176137_Inventory Slot Ring7.png",
+          "name": "Inventory Slot Ring7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squid Space Enemy2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Squid Space Enemy",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Squid Space Enemy3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Squid Space Enemy2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Trail Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trail Purple.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Simple Space/effects/ae39dcd8ba4090f7068122272b85eac695a277f43e843f33ddd77c051b5fa682_Trail Purple.png",
+          "name": "Trail Purple.png"
         }
       }
     ],
@@ -2528,66 +2633,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "ce7413d13b0edaa6402a5e858f03a4dfb827d89497428c10930187a8445375e1",
-      "name": "Water_Squid",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Squid Space Enemy.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 27,
-                        "y": 0
-                      },
-                      {
-                        "x": 27,
-                        "y": 25
-                      },
-                      {
-                        "x": 0,
-                        "y": 25
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "ce7413d13b0edaa6402a5e858f03a4dfb827d89497428c10930187a8445375e1",
       "name": "Fire_Squid",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2596,16 +2641,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Squid Space Enemy",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Squid Space Enemy.png",
+                  "image": "Squid Space Enemy",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2656,16 +2702,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Cave Entrance",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cave Entrance.png",
+                  "image": "Cave Entrance",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2730,7 +2777,7 @@
       "string": "Press E to interact with \nenvironment and chest\n",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 15,
       "color": {
         "b": 28,
         "g": 231,
@@ -2753,8 +2800,151 @@
         "text": "Press E to interact with \nenvironment and chest\n",
         "font": "",
         "textAlignment": "left",
-        "characterSize": 20,
+        "characterSize": 15,
         "color": "248;231;28"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Shoot_",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "To Fire press left on \nthe mouse pad \n\n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "To Fire press left on \nthe mouse pad \n\n",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ce7413d13b0edaa6402a5e858f03a4dfb827d89497428c10930187a8445375e1",
+      "name": "Water_Squid",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Squid Space Enemy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Squid Space Enemy2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 27,
+                        "y": 0
+                      },
+                      {
+                        "x": 27,
+                        "y": 25
+                      },
+                      {
+                        "x": 0,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Switch",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "To switch between elements: \nPress W for Water and F for Fire ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "To switch between elements: \nPress W for Water and F for Fire ",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "74;144;226"
       }
     }
   ],
@@ -2810,9 +3000,6 @@
         "objectName": "LightningSpell"
       },
       {
-        "objectName": "Water_Squid"
-      },
-      {
         "objectName": "Fire_Squid"
       },
       {
@@ -2823,6 +3010,15 @@
       },
       {
         "objectName": "Chest"
+      },
+      {
+        "objectName": "Shoot_"
+      },
+      {
+        "objectName": "Water_Squid"
+      },
+      {
+        "objectName": "Switch"
       }
     ]
   },

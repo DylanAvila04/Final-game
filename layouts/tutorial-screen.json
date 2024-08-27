@@ -230,23 +230,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 41,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Water_Squid",
-      "persistentUuid": "0cb3eefc-85bd-411d-a7bd-6c1676ff4b58",
-      "width": 43,
-      "x": 813,
-      "y": 755,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 39,
       "keepRatio": true,
       "layer": "",
@@ -456,6 +439,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Water_Squid",
+      "persistentUuid": "b721d182-9cbd-49b8-8893-ed921ee2793a",
+      "width": 0,
+      "x": 806,
+      "y": 750,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -497,88 +496,6 @@
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
-        "color": "74;144;226"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Shoot_",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "To Fire press left on \nthe mouse pad \n\n",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 15,
-      "color": {
-        "b": 27,
-        "g": 2,
-        "r": 208
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "To Fire press left on \nthe mouse pad \n\n",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 15,
-        "color": "208;2;27"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Switch",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "To switch between elements: \nPress W for Water and F for Fire ",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 15,
-      "color": {
-        "b": 226,
-        "g": 144,
-        "r": 74
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "To switch between elements: \nPress W for Water and F for Fire ",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 15,
         "color": "74;144;226"
       }
     },
@@ -678,12 +595,6 @@
         "objectName": "Keyboard_"
       },
       {
-        "objectName": "Shoot_"
-      },
-      {
-        "objectName": "Switch"
-      },
-      {
         "objectName": "Congrats"
       },
       {
@@ -781,14 +692,6 @@
           "parameters": [
             "Keyboard_",
             "\"Keyboardtime\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Chest"
           ]
         },
         {
@@ -2341,7 +2244,7 @@
               "parameters": [
                 "Player",
                 "TreasureChest",
-                "50",
+                "70",
                 ""
               ]
             },

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7841174342354179,
+    "zoomFactor": 1.4724454158922975,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -49,10 +49,10 @@
       "layer": "",
       "name": "CaveEntrance",
       "persistentUuid": "f7403465-a656-4398-b755-0f99c49d801b",
-      "width": 106,
-      "x": 982,
-      "y": 401,
-      "zOrder": 0,
+      "width": 123,
+      "x": 971,
+      "y": 398,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -66,10 +66,10 @@
       "layer": "",
       "name": "CaveEntrance",
       "persistentUuid": "23e0d2b1-0591-4dfa-8cbf-9eef288ebdf5",
-      "width": 105,
-      "x": 895,
-      "y": 401,
-      "zOrder": -1,
+      "width": 120,
+      "x": 885,
+      "y": 395,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -78,14 +78,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 39,
+      "height": 46,
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
       "persistentUuid": "134ac28c-2f47-4860-9e6c-ad52f412f339",
       "width": 191,
-      "x": 891,
-      "y": 352,
+      "x": 895,
+      "y": 246,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,7 +101,7 @@
       "name": "Collision",
       "persistentUuid": "b89628bb-a49c-4a21-9f3f-b563c840a9c1",
       "width": 36,
-      "x": 1080,
+      "x": 1078,
       "y": 353,
       "zOrder": 3,
       "numberProperties": [],
@@ -162,14 +162,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 826,
+      "height": 477,
       "keepRatio": true,
       "layer": "",
       "name": "Dirt4",
       "persistentUuid": "53fb0d18-5bbe-4386-86dc-44f19288eb12",
-      "width": 1121,
-      "x": 412,
-      "y": 148,
+      "width": 1123,
+      "x": 428,
+      "y": 612,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -387,9 +387,9 @@
       "name": "cavernleave",
       "persistentUuid": "78fce86a-52dc-4368-9849-23a24cead84b",
       "width": 166,
-      "x": 912,
-      "y": 398,
-      "zOrder": 12,
+      "x": 907,
+      "y": 402,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -405,7 +405,7 @@
       "width": 0,
       "x": 906,
       "y": 488,
-      "zOrder": 18,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -469,7 +469,7 @@
       "width": 0,
       "x": 860,
       "y": 495,
-      "zOrder": 17,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -521,6 +521,158 @@
       "x": 904,
       "y": 579,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 251,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "89f3ad1a-434a-406b-a44a-496f46c2bcb6",
+      "width": 645,
+      "x": 670,
+      "y": 465,
+      "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 477,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Dirt4",
+      "persistentUuid": "85fd88fa-60b5-437d-bc78-c2ecff8eb6ff",
+      "width": 331,
+      "x": 416,
+      "y": 136,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 93,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Dirt4",
+      "persistentUuid": "3ff11757-6829-4670-a4f1-b7c641afac49",
+      "width": 177,
+      "x": 899,
+      "y": 382,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 472,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "9429ddfc-4a9d-4e7e-8607-0eb5affe62af",
+      "width": 1130,
+      "x": 408,
+      "y": 626,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 474,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "670fc308-a975-45a7-ba47-9754100c5b41",
+      "width": 367,
+      "x": 580,
+      "y": 140,
+      "zOrder": -6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 477,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Dirt4",
+      "persistentUuid": "8235f381-308e-451c-a2cd-3be579e7f8e3",
+      "width": 331,
+      "x": 1229,
+      "y": 146,
+      "zOrder": -7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 248,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "0272e226-0808-4143-9bbb-7412a6f77887",
+      "width": 645,
+      "x": 678,
+      "y": 144,
+      "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 474,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "aff121ff-34fe-418d-8472-16ed91a114f4",
+      "width": 379,
+      "x": 1080,
+      "y": 144,
+      "zOrder": -6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TrailPurple",
+      "persistentUuid": "b66e4f88-6614-430d-a276-7366690a8da6",
+      "width": 0,
+      "x": 921,
+      "y": 383,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -780,6 +932,174 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9a6995a4525af5692eb5d3f73b029446d496e0a1d5528a48930ba7f707aa99e3",
+      "name": "CaveBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Rocks 1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rocks 2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "166031ac90f27587240d46e81f078a235ede62eef7b9ae10cc7ba4be0b39233f",
+      "name": "TrailPurple",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Trail Purple.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 127
+                      },
+                      {
+                        "x": 32,
+                        "y": 127
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -802,6 +1122,12 @@
       },
       {
         "objectName": "GroundLayer2"
+      },
+      {
+        "objectName": "CaveBackground"
+      },
+      {
+        "objectName": "TrailPurple"
       }
     ]
   },
