@@ -562,7 +562,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": true
@@ -792,6 +792,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/d9fa2f9e35959696723710be864b3d250deb4e5a3fa353adb0a3272dddc03a45_33 - adventure cats pirate radio.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Entrance.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Entrance.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/35605ddaebe12c9d0a47439069f5aca6e75ff18735f2dae0f537179787df771f_Cave Entrance.png",
+          "name": "Cave Entrance.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square Blue Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2dda7f1aa5cac6d167f2833febbe1982b833183664653e8fac352579113982df_Square Blue Toggle_On.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/2dda7f1aa5cac6d167f2833febbe1982b833183664653e8fac352579113982df_Square Blue Toggle_On.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -827,6 +853,7 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 70,
           "acceleration": 900000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -834,7 +861,6 @@
           "customIsometryAngle": 30,
           "deceleration": 900000,
           "ignoreDefaultControls": false,
-          "maxSpeed": 50,
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
@@ -1974,7 +2000,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Object_Shot_by_Gun",
+      "name": "Object_Shot_by_Water",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1992,7 +2018,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "2dda7f1aa5cac6d167f2833febbe1982b833183664653e8fac352579113982df_Square Blue Toggle_On.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2012,16 +2038,16 @@
                         "y": 0
                       },
                       {
-                        "x": 16,
+                        "x": 25,
                         "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 25,
+                        "y": 26
                       },
                       {
                         "x": 0,
-                        "y": 16
+                        "y": 26
                       }
                     ]
                   ]
@@ -2036,67 +2062,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Object_shot_by_fire",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Object_shot_by_lightning",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2567,66 +2532,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "ce7413d13b0edaa6402a5e858f03a4dfb827d89497428c10930187a8445375e1",
-      "name": "Lightning_squid",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Squid Space Enemy.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 27,
-                        "y": 0
-                      },
-                      {
-                        "x": 27,
-                        "y": 25
-                      },
-                      {
-                        "x": 0,
-                        "y": 25
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2663,13 +2568,10 @@
         "objectName": "Collision2"
       },
       {
-        "objectName": "Object_Shot_by_Gun"
+        "objectName": "Object_Shot_by_Water"
       },
       {
         "objectName": "Object_shot_by_fire"
-      },
-      {
-        "objectName": "Object_shot_by_lightning"
       },
       {
         "objectName": "NewTiledSprite"
@@ -2688,9 +2590,6 @@
       },
       {
         "objectName": "Fire_Squid"
-      },
-      {
-        "objectName": "Lightning_squid"
       }
     ]
   },
@@ -2711,6 +2610,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/wake-up-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/the-cave"
     }
   ],
   "externalEvents": [],

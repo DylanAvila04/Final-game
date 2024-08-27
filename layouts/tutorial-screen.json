@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1726229638177657,
+    "zoomFactor": 1.3389693172845394,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -83,7 +83,7 @@
       "height": 50,
       "keepRatio": true,
       "layer": "",
-      "name": "Object_Shot_by_Gun",
+      "name": "Object_Shot_by_Water",
       "persistentUuid": "e73ec772-b389-44d5-878d-cb1c1229a66a",
       "width": 50,
       "x": 876,
@@ -230,23 +230,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 46,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Object_shot_by_lightning",
-      "persistentUuid": "cfba66bc-886a-4566-aa96-9e8915ac326e",
-      "width": 46,
-      "x": 877,
-      "y": 582,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 41,
       "keepRatio": true,
       "layer": "",
@@ -281,23 +264,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 44,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Lightning_squid",
-      "persistentUuid": "1c6e1f52-d91f-4cb2-a724-98745b796ba5",
-      "width": 45,
-      "x": 678,
-      "y": 756,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 265,
       "keepRatio": true,
       "layer": "Collision",
@@ -315,31 +281,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 48,
-      "keepRatio": true,
-      "layer": "Collision",
-      "name": "Collision",
-      "persistentUuid": "feb1776d-54e8-4fd8-a201-c4cca6bead6c",
-      "width": 47,
-      "x": 877,
-      "y": 580,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 57,
+      "height": 32,
       "keepRatio": true,
       "layer": "Collision",
       "name": "Collision",
       "persistentUuid": "0cfeba8c-b584-4ee6-94ab-85b9a36847c1",
-      "width": 57,
-      "x": 872,
-      "y": 651,
+      "width": 34,
+      "x": 882,
+      "y": 663,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -349,14 +298,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 54,
+      "height": 33,
       "keepRatio": true,
       "layer": "Collision",
       "name": "Collision",
       "persistentUuid": "4af93abc-93d9-47e9-aa67-7d932ea42374",
-      "width": 52,
-      "x": 874,
-      "y": 738,
+      "width": 38,
+      "x": 882,
+      "y": 745,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -366,14 +315,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 38,
+      "height": 32,
       "keepRatio": true,
       "layer": "Collision",
       "name": "Collision",
       "persistentUuid": "0141410a-879c-4dff-80a1-f5a36a946c39",
-      "width": 37,
-      "x": 815,
-      "y": 756,
+      "width": 30,
+      "x": 819,
+      "y": 760,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -383,14 +332,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 38,
+      "height": 30,
       "keepRatio": true,
       "layer": "Collision",
       "name": "Collision",
       "persistentUuid": "1363e334-ddbc-46a2-af5d-f165650a1db7",
-      "width": 40,
-      "x": 747,
-      "y": 756,
+      "width": 28,
+      "x": 754,
+      "y": 760,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -398,23 +347,365 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 46,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
-      "layer": "Collision",
-      "name": "Collision",
-      "persistentUuid": "ab79f4c2-1521-4aa8-be3c-d8f382109723",
-      "width": 42,
-      "x": 682,
-      "y": 756,
-      "zOrder": 25,
+      "layer": "Chest Question ",
+      "name": "Keyboard_instruction",
+      "persistentUuid": "1e207c9e-6d5c-485e-8133-e0860180b489",
+      "width": 0,
+      "x": 634,
+      "y": 516,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Keyboard_",
+      "persistentUuid": "99874827-7dff-4041-bcff-3133a73f911c",
+      "width": 0,
+      "x": 638,
+      "y": 552,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chest",
+      "persistentUuid": "24888d21-a3ba-4946-8cb8-dad432fcc662",
+      "width": 0,
+      "x": 830,
+      "y": 497,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Shoot_",
+      "persistentUuid": "4d1f70e4-5869-4174-8174-e3b74c522aa1",
+      "width": 0,
+      "x": 683,
+      "y": 619,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch",
+      "persistentUuid": "2146b5cf-8161-45e0-a233-c7549c222454",
+      "width": 0,
+      "x": 655,
+      "y": 700,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Block",
+      "persistentUuid": "9979376e-2998-4aba-8a86-2e55c5b7bcb6",
+      "width": 0,
+      "x": 624,
+      "y": 700,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Congrats",
+      "persistentUuid": "9de7cda4-5975-44bc-a0e3-7ca9b893bec3",
+      "width": 0,
+      "x": 619,
+      "y": 580,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Keyboard_",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "To move around Use the \nkeys on your keybaord ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "To move around Use the \nkeys on your keybaord ",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "74;144;226"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Chest",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press E to interact with \nchest and open it ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press E to interact with \nchest and open it ",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "248;231;28"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Shoot_",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "To Fire press left on \nthe mouse pad \n\n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "To Fire press left on \nthe mouse pad \n\n",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Switch",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "To switch between elements: \nPress W for Water and F for Fire ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "To switch between elements: \nPress W for Water and F for Fire ",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "74;144;226"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Congrats",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Congratulations you have learned the \nbasics of the game!!:\n\n\nPress J to jump to the begining ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 18,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Congratulations you have learned the \nbasics of the game!!:\n\n\nPress J to jump to the begining ",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 18,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Block",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Collisions will \noccur duing the \ngame just like this one,\n there will be \nparts that will not \nlet you walk into ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Collisions will \noccur duing the \ngame just like this one,\n there will be \nparts that will not \nlet you walk into ",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "208;2;27"
+      }
+    }
+  ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
@@ -423,6 +714,24 @@
       },
       {
         "folderName": "Background"
+      },
+      {
+        "objectName": "Keyboard_"
+      },
+      {
+        "objectName": "Chest"
+      },
+      {
+        "objectName": "Shoot_"
+      },
+      {
+        "objectName": "Switch"
+      },
+      {
+        "objectName": "Congrats"
+      },
+      {
+        "objectName": "Block"
       }
     ]
   },
@@ -498,6 +807,196 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Keyboard_",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "Keyboard_",
+            "\"Keyboardtime\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Chest"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Shoot_"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Switch"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Block"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Water_Orb",
+                "Object_shot_by_fire",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fire_orb",
+                "Object_Shot_by_Water",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Water_Orb",
+                "Fire_Squid",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fire_orb",
+                "Water_Squid",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Switch",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Switchoption\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Switchoption\"\n",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Keyboardtime\"",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Keyboard_"
           ]
         }
       ]
@@ -879,7 +1378,7 @@
           },
           "parameters": [
             "Water_Orb",
-            "Object_Shot_by_Gun",
+            "Object_Shot_by_Water",
             "",
             "",
             ""
@@ -892,7 +1391,8 @@
             "value": "Delete"
           },
           "parameters": [
-            "Object_Shot_by_Gun"
+            "Object_Shot_by_Water",
+            ""
           ]
         },
         {
@@ -1059,7 +1559,7 @@
           },
           "parameters": [
             "Fire_orb",
-            "Object_Shot_by_Gun",
+            "Object_Shot_by_Water",
             "",
             "",
             ""
@@ -1143,7 +1643,7 @@
           },
           "parameters": [
             "LightningSpell",
-            "Object_Shot_by_Gun",
+            "Object_Shot_by_Water",
             "",
             "",
             ""
@@ -1880,15 +2380,6 @@
           "subInstructions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
                 "value": "Distance"
               },
               "parameters": [
@@ -1896,6 +2387,15 @@
                 "TreasureChest",
                 "40",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
               ]
             }
           ]
@@ -1910,11 +2410,11 @@
       "actions": [
         {
           "type": {
-            "value": "ShowLayer"
+            "value": "Montre"
           },
           "parameters": [
-            "ChestQuestion",
-            "\"Chest Question \""
+            "Chest",
+            ""
           ]
         },
         {
@@ -1943,140 +2443,7 @@
           },
           "parameters": [
             "",
-            "\"Timerfortext\"\n"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "LightningSpell",
-            "point",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "LightningSpell",
-                "point",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "l"
-          ]
-        },
-        {
-          "type": {
-            "value": "StringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Fire\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Lightning\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "l"
-              ]
-            },
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "element",
-                "=",
-                "\"Water\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "LightningSpell",
-                "point",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Lightning\""
+            "\"openChest\""
           ]
         }
       ]
@@ -2090,20 +2457,19 @@
           },
           "parameters": [
             "",
-            "\"Timerfortext\"",
+            "\"openChest\"",
             ">=",
-            "2"
+            "4"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "HideLayer"
+            "value": "Cache"
           },
           "parameters": [
-            "",
-            "\"Chest Question \""
+            "Chest"
           ]
         }
       ]
@@ -2113,19 +2479,272 @@
       "conditions": [
         {
           "type": {
-            "value": "LayerVisible"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "\"Chest Question \""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Object_shot_by_fire",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Fire_Squid",
+                "100",
+                ""
+              ]
+            }
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Shoot_",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Firequestion\""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Firequestion\"",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Shoot_"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Object_shot_by_fire"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Object_Shot_by_Water"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Water_Squid"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Fire_Squid"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "Chest"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Congrats",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Congrats\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Congrats\"",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Congrats"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "NewTiledSprite",
+                "100",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Block",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Collision\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Collision\"",
+            ">=",
+            "8"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Block"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Congrats"
+              ]
+            }
+          ]
+        },
         {
           "type": {
             "value": "KeyPressed"
@@ -2144,32 +2763,6 @@
           "parameters": [
             "",
             "\"Wake up scene\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "b"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Tutorial screen\"",
             ""
           ]
         }
@@ -2300,7 +2893,7 @@
       "isLocked": true,
       "name": "Chest Question ",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
