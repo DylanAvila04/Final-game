@@ -717,22 +717,6 @@
           "parameters": [
             "Block"
           ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Moveon"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "ChestQuestion"
-          ]
         }
       ],
       "events": [
@@ -2094,90 +2078,6 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "l"
-          ]
-        },
-        {
-          "type": {
-            "value": "StringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Water\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Lightning\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "l"
-          ]
-        },
-        {
-          "type": {
-            "value": "StringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Fire\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Lightning\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "MouseButtonPressed"
           },
           "parameters": [
@@ -2327,17 +2227,6 @@
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Text",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2900,6 +2789,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
