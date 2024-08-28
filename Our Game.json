@@ -1,9 +1,9 @@
 {
   "firstLayout": "Wake up scene",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -1034,6 +1034,201 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Simple Space/effects/ae39dcd8ba4090f7068122272b85eac695a277f43e843f33ddd77c051b5fa682_Trail Purple.png",
           "name": "Trail Purple.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Magic Sparkle Trail_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Magic Sparkle Trail_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Effect/f6551f9e3ab7a3c5be2e6f892ee6f8dc5276b179a6281b0d6a6956f9f0dbf11c_Magic Sparkle Trail_1.png",
+          "name": "Magic Sparkle Trail_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Magic Sparkle Trail_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Magic Sparkle Trail_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Effect/0c07f58746eeb04b188797233eaa68c4aa7efbb2f38f0c6ddd8b730a1afc60aa_Magic Sparkle Trail_2.png",
+          "name": "Magic Sparkle Trail_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Magic Sparkle Trail_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Magic Sparkle Trail_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Effect/d2e55001222fa96dc28986547a047e4da77be2257344f29baa2674ab430250be_Magic Sparkle Trail_3.png",
+          "name": "Magic Sparkle Trail_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Magic Sparkle Trail_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Magic Sparkle Trail_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Effect/26fd80c19c64ecfd020edb3451f05a4224e18bfc628a28037035442fb8e0ea28_Magic Sparkle Trail_4.png",
+          "name": "Magic Sparkle Trail_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Magic Sparkle Trail_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Magic Sparkle Trail_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Effect/676a753e87b5d0350f570c212797abccfb4a233d68b0d6685362e22af214271f_Magic Sparkle Trail_5.png",
+          "name": "Magic Sparkle Trail_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/e1cf1fd3782f02c8d88c31f800e03035b381d36af8da4bbb498893aff56b5339_Boss Golem_Idle_1.png",
+          "name": "Boss Golem_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/54991f230e7bee9999e585005fc94932435b1267cea7ccf075c233cea0b55e88_Boss Golem_Idle_2.png",
+          "name": "Boss Golem_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/af183bf6f42608a5ec948fbfd57381598f9ed38557e04f2ba1e7f9ceb87cc5a4_Boss Golem_Idle_3.png",
+          "name": "Boss Golem_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/3161d82b9a6dd1d362a295298dd4c36553ea40323b451a74fea3779f5471d772_Boss Golem_Idle_4.png",
+          "name": "Boss Golem_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/4c235c015ca8e1741c2443100cd0d13f9a5b55087d9ec004632a4df0eb04bcf0_Boss Golem_Idle_5.png",
+          "name": "Boss Golem_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/c37d8e6037173138b08801a49a41bde882ad290eb7feef48cb884e86b2675415_Boss Golem_Idle_6.png",
+          "name": "Boss Golem_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stone_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Resources/86fbb6681366ec77c1057ed2b978a9ac6227e10a1d9944997c450553fdb90cf1_Stone_No Shadow.png",
+          "name": "Stone_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stone_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Resources/6853e3917e41f8d709a4aa4239ee8f6d68f45b9901b90939ff2c190095cf35bb_Stone_Shadow.png",
+          "name": "Stone_Shadow.png"
         }
       }
     ],
@@ -2946,6 +3141,210 @@
         "characterSize": 15,
         "color": "74;144;226"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d7ca06f933745e43324beb3ef599b9108766492229c0b6f5e0cb9030189577c3",
+      "name": "MagicSparkleTrail",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Magic Sparkle Trail_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 21
+                      },
+                      {
+                        "x": 12,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Magic Sparkle Trail_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 21
+                      },
+                      {
+                        "x": 12,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Magic Sparkle Trail_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 21
+                      },
+                      {
+                        "x": 12,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Magic Sparkle Trail_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 21
+                      },
+                      {
+                        "x": 12,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Magic Sparkle Trail_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 15
+                      },
+                      {
+                        "x": 19,
+                        "y": 21
+                      },
+                      {
+                        "x": 12,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3019,6 +3418,9 @@
       },
       {
         "objectName": "Switch"
+      },
+      {
+        "objectName": "MagicSparkleTrail"
       }
     ]
   },
@@ -3043,6 +3445,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tutorial-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/the-test"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/bossfight"
     }
   ],
   "externalEvents": [],

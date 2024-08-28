@@ -676,6 +676,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MagicSparkleTrail",
+      "persistentUuid": "3d2ec559-b8c9-4c6b-8635-562ceea9343d",
+      "width": 0,
+      "x": 972,
+      "y": 417,
+      "zOrder": -9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1607,7 +1623,7 @@
               },
               "parameters": [
                 "Player",
-                "CaveEntrance",
+                "MagicSparkleTrail",
                 "65",
                 ""
               ]
