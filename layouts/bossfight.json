@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7817486425451757,
+    "zoomFactor": 1.0536458333333318,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -252,8 +252,8 @@
       "name": "TrailPurple",
       "persistentUuid": "b210ec37-bee9-4770-8417-c7d2a5091695",
       "width": 375,
-      "x": 371,
-      "y": 484,
+      "x": 362,
+      "y": 479,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -285,8 +285,8 @@
       "name": "BossGolem",
       "persistentUuid": "eccc9e6d-4c5f-4131-977b-a99741e1c47b",
       "width": 94,
-      "x": 1092,
-      "y": 490,
+      "x": 1138,
+      "y": 489,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -371,7 +371,7 @@
       "persistentUuid": "f1c9691a-4f12-4eff-bade-adaa76772692",
       "width": 83,
       "x": 1200,
-      "y": -271,
+      "y": -318,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -556,6 +556,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BossHealthBar",
+      "persistentUuid": "37fab417-a696-4c4d-8022-773afec61221",
+      "width": 0,
+      "x": 223,
+      "y": 415,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player_Health_Bar",
+      "persistentUuid": "4c94d157-0521-424d-aaa3-e3174a5b1689",
+      "width": 0,
+      "x": 230,
+      "y": 504,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -685,7 +717,14 @@
       "name": "BossGolem",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 50
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -732,7 +771,7 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
+                    "x": 24,
                     "y": 0
                   },
                   "centerPoint": {
@@ -768,7 +807,7 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
+                    "x": 24,
                     "y": 0
                   },
                   "centerPoint": {
@@ -804,7 +843,7 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
+                    "x": 24,
                     "y": 0
                   },
                   "centerPoint": {
@@ -840,7 +879,7 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
+                    "x": 24,
                     "y": 0
                   },
                   "centerPoint": {
@@ -876,7 +915,7 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
+                    "x": 24,
                     "y": 0
                   },
                   "centerPoint": {
@@ -912,7 +951,7 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
+                    "x": 24,
                     "y": 0
                   },
                   "centerPoint": {
@@ -956,7 +995,7 @@
       "areaMinY": 0,
       "areaMinZ": 0,
       "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
-      "name": "CopperRedBar",
+      "name": "BossHealthBar",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -1949,7 +1988,7 @@
         "objectName": "BossGolem"
       },
       {
-        "objectName": "CopperRedBar"
+        "objectName": "BossHealthBar"
       },
       {
         "objectName": "Stone"
@@ -2057,7 +2096,7 @@
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
           },
           "parameters": [
-            "CopperRedBar",
+            "BossHealthBar",
             "=",
             "BossGolem.Health::Health()",
             ""
@@ -2884,6 +2923,295 @@
           "parameters": [
             "Stone8",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Water_Orb",
+            "BossGolem",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Water_Orb",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "BossGolem",
+            "Health",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "BossGolem",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BossHealthBar",
+            "BossGolem.X()",
+            "BossGolem.Y() -15",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+          },
+          "parameters": [
+            "BossHealthBar",
+            "Resizable",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "BossGolem",
+            "BossHealthBar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "BossHealthBar",
+            "BossGolem",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "BossHealthBar",
+            "Resizable",
+            "=",
+            "BossGolem.Health"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "BossGolem",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "BossGolem",
+            "Health",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "BossHealthBar",
+            "BossGolem",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BossGolem",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BossHealthBar",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Fire_orb",
+            "BossGolem",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Fire_orb",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "BossGolem",
+            "Health",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Player_Health_Bar",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+          },
+          "parameters": [
+            "Player_Health_Bar",
+            "Resizable",
+            "=",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "Player",
+            "Player_Health_Bar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "Player_Health_Bar",
+            "Player",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "Player_Health_Bar",
+            "Resizable",
+            "=",
+            "Player.playerhealth"
           ]
         }
       ]

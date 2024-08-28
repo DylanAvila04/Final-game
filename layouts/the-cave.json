@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8157224190121152,
+    "zoomFactor": 0.6052222422205962,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -374,7 +374,7 @@
       "name": "CaveUnderTile",
       "persistentUuid": "136a0729-a2da-4dad-a408-0c006dcee2d7",
       "width": 189,
-      "x": -188,
+      "x": -198,
       "y": 168,
       "zOrder": 9,
       "numberProperties": [],
@@ -796,8 +796,8 @@
       "name": "Collision",
       "persistentUuid": "e178afea-63d2-4c95-b760-03608fc8d2ba",
       "width": 1335,
-      "x": -1,
-      "y": 445,
+      "x": 4,
+      "y": 434,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -898,7 +898,7 @@
       "name": "Collision",
       "persistentUuid": "9812c01f-a1fe-4bcb-b463-6a7688b0e6d0",
       "width": 139,
-      "x": 1248,
+      "x": 1239,
       "y": 195,
       "zOrder": 5,
       "numberProperties": [],
@@ -931,8 +931,8 @@
       "name": "TrailPurple",
       "persistentUuid": "b0312f56-ecf8-43a6-bf10-8f7dc63904be",
       "width": 128,
-      "x": -63,
-      "y": 301,
+      "x": -61,
+      "y": 300,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -950,22 +950,6 @@
       "x": 1194,
       "y": 346,
       "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Moveon",
-      "persistentUuid": "e2a03919-ac10-4cef-88f0-33ecdff28b5a",
-      "width": 0,
-      "x": 1079,
-      "y": 295,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1022,6 +1006,114 @@
                       {
                         "x": 0,
                         "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9a6995a4525af5692eb5d3f73b029446d496e0a1d5528a48930ba7f707aa99e3",
+      "name": "CaveBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Rocks 1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rocks 2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
                       }
                     ]
                   ]
@@ -1091,6 +1183,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "166031ac90f27587240d46e81f078a235ede62eef7b9ae10cc7ba4be0b39233f",
+      "name": "TrailPurple",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Trail Purple.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 127
+                      },
+                      {
+                        "x": 32,
+                        "y": 127
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1100,7 +1252,13 @@
         "objectName": "CaveUnderTile"
       },
       {
+        "objectName": "CaveBackground"
+      },
+      {
         "objectName": "InventorySlotRing7"
+      },
+      {
+        "objectName": "TrailPurple"
       }
     ]
   },
@@ -1521,7 +1679,7 @@
           },
           "parameters": [
             "",
-            "\"Lightning\"",
+            "\"The Test\"",
             ""
           ]
         }
@@ -1529,73 +1687,8 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Water_Squid",
-                "125",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Moveon",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"moveontimer\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"moveontimer\"",
-            ">=",
-            "6\n"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Moveon"
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
