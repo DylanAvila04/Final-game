@@ -18,12 +18,29 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.6762448643325025,
+    "zoomFactor": 0.8635277700823938,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1050,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AcidCaveBrightDesat",
+      "persistentUuid": "e061b59d-0244-4d46-88e0-7517801c4c79",
+      "width": 1509,
+      "x": 204,
+      "y": 14,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
     {
       "angle": 0,
       "customSize": true,
@@ -53,7 +70,7 @@
       "width": 190,
       "x": 246,
       "y": 397,
-      "zOrder": 15,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -103,7 +120,7 @@
       "width": 178,
       "x": 154,
       "y": 324,
-      "zOrder": 16,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -124,26 +141,69 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1131,
-      "keepRatio": true,
-      "layer": "",
-      "name": "AcidCaveBrightDesatSurface",
-      "persistentUuid": "b61ae49d-dd22-4e91-b961-420a0cd2dadb",
-      "width": 1708,
-      "x": 0,
-      "y": 4,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "66deb37077dbfe16eebb8bb699cd2a8c1b6367af4c0673249ba6a0b03c4b4f00",
+      "name": "AcidCaveBrightDesat",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "acid cave bright desat.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 288,
+                        "y": 0
+                      },
+                      {
+                        "x": 288,
+                        "y": 288
+                      },
+                      {
+                        "x": 0,
+                        "y": 288
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "assetStoreId": "",
       "bold": true,
@@ -184,76 +244,16 @@
         "characterSize": 20,
         "color": "248;231;28"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "89e084f84f5b8764cd7d504147bd5ef6e7a4eb3c3ebf7a2299cdb245b3cc19c5",
-      "name": "AcidCaveBrightDesatSurface",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "acid cave bright desat surface.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 288,
-                        "y": 0
-                      },
-                      {
-                        "x": 288,
-                        "y": 288
-                      },
-                      {
-                        "x": 0,
-                        "y": 288
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
+        "objectName": "AcidCaveBrightDesat"
       },
       {
-        "objectName": "AcidCaveBrightDesatSurface"
+        "objectName": "NewText"
       }
     ]
   },
