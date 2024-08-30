@@ -1395,7 +1395,7 @@
         "alwaysLoaded": false,
         "file": "assets/Water_Mob.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Water_Mob.png\"}",
         "name": "Water_Mob",
         "smoothed": true,
         "userAdded": true
@@ -1592,10 +1592,10 @@
           "RandomPosition": false
         },
         {
-          "ignoreDefaultControls": true,
-          "maxSpeed": 75,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "ignoreDefaultControls": true,
+          "maxSpeed": 75,
           "acceleration": 900000,
           "allowDiagonals": true,
           "angleOffset": 0,

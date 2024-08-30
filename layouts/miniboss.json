@@ -1913,6 +1913,15 @@
             "Lightning_Mob",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Mob_Health_Bar",
+            ""
+          ]
         }
       ]
     },
@@ -1941,6 +1950,15 @@
             "Fire_Mob",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Mob_Health_Bar",
+            ""
+          ]
         }
       ]
     },
@@ -1967,6 +1985,15 @@
           },
           "parameters": [
             "Water_Mob",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Mob_Health_Bar",
             ""
           ]
         }
