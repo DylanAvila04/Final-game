@@ -3303,6 +3303,18 @@
           "parameters": [
             "Collision"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
+            "",
+            "20",
+            ""
+          ]
         }
       ]
     },
@@ -4113,17 +4125,6 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Player",
-            "Animation",
-            "=",
-            "\"Right\""
-          ]
-        },
-        {
-          "type": {
             "value": "MettreXY"
           },
           "parameters": [
@@ -4151,17 +4152,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Player",
-            "Animation",
-            "=",
-            "\"Right\""
-          ]
-        },
         {
           "type": {
             "value": "MettreXY"
@@ -4193,17 +4183,6 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Player",
-            "Animation",
-            "=",
-            "\"Right\""
-          ]
-        },
-        {
-          "type": {
             "value": "MettreXY"
           },
           "parameters": [
@@ -4231,17 +4210,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Player",
-            "Animation",
-            "=",
-            "\"Right\""
-          ]
-        },
         {
           "type": {
             "value": "MettreXY"
