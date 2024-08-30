@@ -867,7 +867,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press E to Enter cave \nand leave this cavern\n",
+      "string": "Press R to Enter cave \nand leave this cavern\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 15,
@@ -890,7 +890,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press E to Enter cave \nand leave this cavern\n",
+        "text": "Press R to Enter cave \nand leave this cavern\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 15,
@@ -908,7 +908,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Your awake: \nUse the arrow \nkeys for movement ",
+      "string": "Your awake: \nUse the wasd for movement\nw (up)\na (left)\ns (down)\nd (right)",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -931,7 +931,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Your awake: \nUse the arrow \nkeys for movement ",
+        "text": "Your awake: \nUse the wasd for movement\nw (up)\na (left)\ns (down)\nd (right)",
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
@@ -1233,7 +1233,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "E"
+            "R"
           ]
         },
         {
@@ -1634,7 +1634,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "r"
               ]
             }
           ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.8655255482570177,
+    "zoomFactor": 1.4790395861757406,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -183,7 +183,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "E",
+      "name": "R",
       "persistentUuid": "d1fa786f-a5f3-4d21-ae6d-fa619e4b72eb",
       "width": 0,
       "x": 893,
@@ -1054,6 +1054,115 @@
       "conditions": [
         {
           "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "\"Up\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "\"Left\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "\"Down\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateControl"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "\"Right\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "inverted": true,
             "value": "TopDownMovementBehavior::IsMoving"
           },
@@ -1910,7 +2019,7 @@
           },
           "parameters": [
             "",
-            "w"
+            "e"
           ]
         },
         {
@@ -1958,7 +2067,7 @@
               },
               "parameters": [
                 "",
-                "w"
+                "e"
               ]
             },
             {
@@ -2254,7 +2363,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "r"
               ]
             }
           ]
@@ -2281,7 +2390,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "E"
+            "R"
           ]
         },
         {

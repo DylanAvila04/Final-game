@@ -3879,6 +3879,18 @@
             "Player.Health::Health()",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "f7ac7de65c9248c5cf0697cbcd2e3bc2399881944f3f829286a9dcb34e75ba66_Hit 9.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -3931,6 +3943,18 @@
             "Player.Health::Health()",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "f7ac7de65c9248c5cf0697cbcd2e3bc2399881944f3f829286a9dcb34e75ba66_Hit 9.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -3981,6 +4005,18 @@
             "PlayerHealthBar",
             "=",
             "Player.Health::Health()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "f7ac7de65c9248c5cf0697cbcd2e3bc2399881944f3f829286a9dcb34e75ba66_Hit 9.aac",
+            "",
+            "",
             ""
           ]
         }

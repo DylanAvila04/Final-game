@@ -1498,6 +1498,20 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Hit 9.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "f7ac7de65c9248c5cf0697cbcd2e3bc2399881944f3f829286a9dcb34e75ba66_Hit 9.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/f7ac7de65c9248c5cf0697cbcd2e3bc2399881944f3f829286a9dcb34e75ba66_Hit 9.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2585,14 +2599,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "E",
+      "name": "R",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "E",
+      "string": "R",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -2615,7 +2629,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "E",
+        "text": "R",
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
@@ -2633,7 +2647,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You have found a new power up!\nPress L to use Lightning!\n",
+      "string": "You have found a new power up!\nPress q to use Lightning!\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 15,
@@ -2656,7 +2670,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You have found a new power up!\nPress L to use Lightning!\n",
+        "text": "You have found a new power up!\nPress q to use Lightning!\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 15,
@@ -3284,7 +3298,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press E to interact with \nenvironment and chest\n",
+      "string": "Press R to interact with \nenvironment and chest\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 15,
@@ -3307,7 +3321,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Press E to interact with \nenvironment and chest\n",
+        "text": "Press R to interact with \nenvironment and chest\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 15,
@@ -3427,7 +3441,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "To switch between elements: \nPress W for Water and F for Fire ",
+      "string": "To switch between elements: \nPress E for Water and F for Fire ",
       "font": "",
       "textAlignment": "left",
       "characterSize": 15,
@@ -3450,7 +3464,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "To switch between elements: \nPress W for Water and F for Fire ",
+        "text": "To switch between elements: \nPress E for Water and F for Fire ",
         "font": "",
         "textAlignment": "left",
         "characterSize": 15,
@@ -4037,7 +4051,7 @@
         "objectName": "Collision"
       },
       {
-        "objectName": "E"
+        "objectName": "R"
       },
       {
         "objectName": "ChestQuestion"
