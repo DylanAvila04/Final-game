@@ -1421,6 +1421,69 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/a3178a0b43f6cc9ae792638abe7d209f714b0eca84dc6a582d59131851da1be7_Health_01_Bar01.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Silkscreen-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Orange Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Orange Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e277b4eaf6ac17fafedb222c2900b817f1fe3018b42a46430d530f0df8d42b60_Flat Bar Orange Fill Bar.png",
+          "name": "Flat Bar Orange Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Blue Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Blue Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/f270f84b907c4d653ca7fad99ab890b31642bdbc0b22a189ff45be51240cf52b_Flat Bar Blue Fill Bar.png",
+          "name": "Flat Bar Blue Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded Yellow Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded Yellow Fill Bar.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/ac0ee866c59fb4ae98d677c587fb14df67301d8ef0641f7d4eafceebcd63185d_Shaded Yellow Fill Bar.png",
+          "name": "Shaded Yellow Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wood Bar Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
+          "name": "Wood Bar Border.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -4002,6 +4065,9 @@
         "objectName": "Shoot_"
       },
       {
+        "objectName": "PlayerHealthBar"
+      },
+      {
         "objectName": "Water_Squid"
       },
       {
@@ -4009,9 +4075,6 @@
       },
       {
         "objectName": "MagicSparkleTrail"
-      },
-      {
-        "objectName": "PlayerHealthBar"
       },
       {
         "objectName": "TrailPurple"
