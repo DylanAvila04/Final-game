@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4724454158922975,
+    "zoomFactor": 1.1673949255867655,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -603,8 +603,8 @@
       "name": "CaveBackground",
       "persistentUuid": "670fc308-a975-45a7-ba47-9754100c5b41",
       "width": 367,
-      "x": 580,
-      "y": 140,
+      "x": 571,
+      "y": 158,
       "zOrder": -6,
       "numberProperties": [],
       "stringProperties": [],
@@ -636,8 +636,8 @@
       "layer": "",
       "name": "CaveBackground",
       "persistentUuid": "0272e226-0808-4143-9bbb-7412a6f77887",
-      "width": 645,
-      "x": 678,
+      "width": 682,
+      "x": 641,
       "y": 144,
       "zOrder": -8,
       "numberProperties": [],
@@ -1758,6 +1758,10 @@
     {
       "name": "Health",
       "type": "Health::Health"
+    },
+    {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
     },
     {
       "name": "Opacity",
