@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Our Game",
+    "name": "Cavern's Edge",
     "description": "",
     "author": "",
     "windowWidth": 1920,
@@ -1296,6 +1296,46 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Acid/3ed852b322b0eee6f1706fad8a8a414740c9100482df54afde37e93daaee5e8f_acid cave bright desat.png",
           "name": "acid cave bright desat.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/acid cave bright desat surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "acid cave bright desat surface.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Acid/6a83010f9e73b57f76e02ec7bbde625bda860b9157024bfc3dff62ec66be9bc7_acid cave bright desat surface.png",
+          "name": "acid cave bright desat surface.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/06 - fire breathing turtle boss.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "c49ea2edf18b99d4ccc5e4d60a0039cc8b08e2648bda3ef6cac2ea79057f05c6_06 - fire breathing turtle boss.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/c49ea2edf18b99d4ccc5e4d60a0039cc8b08e2648bda3ef6cac2ea79057f05c6_06 - fire breathing turtle boss.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2431,10 +2471,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You have found a new power up!",
+      "string": "You have found a new power up!\nPress L to use Lightning!\n",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 15,
       "color": {
         "b": 41,
         "g": 192,
@@ -2454,10 +2494,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You have found a new power up!",
+        "text": "You have found a new power up!\nPress L to use Lightning!\n",
         "font": "",
         "textAlignment": "left",
-        "characterSize": 50,
+        "characterSize": 15,
         "color": "174;192;41"
       }
     },
@@ -3640,6 +3680,174 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "9a6995a4525af5692eb5d3f73b029446d496e0a1d5528a48930ba7f707aa99e3",
+      "name": "CaveBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Rocks 1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rocks 2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Background_Rocks 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 24
+                      },
+                      {
+                        "x": 0,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "fe7f314724f604d8c5d29560986b045237af9389ff578624976d45a7cf77e88b",
+      "name": "CaveUnderTile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cave Under Tile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3722,6 +3930,12 @@
       },
       {
         "objectName": "TrailPurple"
+      },
+      {
+        "objectName": "CaveBackground"
+      },
+      {
+        "objectName": "CaveUnderTile"
       }
     ]
   },
@@ -3749,7 +3963,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/the-test"
+      "referenceTo": "/layouts/lightning"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

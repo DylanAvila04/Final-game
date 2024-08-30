@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "The_32Cave",
-  "name": "The Cave",
+  "mangledName": "Lightning",
+  "name": "Lightning",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6256305360001769,
+    "zoomFactor": 1.1259024631360848,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,10 +32,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Player",
-      "persistentUuid": "9338e86f-d44c-457c-8766-a40c304d43d6",
+      "persistentUuid": "0f4aee28-abaf-4fd5-bc35-02074ea4fdaa",
       "width": 67.14754098360655,
-      "x": 26,
-      "y": 351,
+      "x": 158,
+      "y": 440,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,10 +49,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "7e8a0567-b156-4c2b-b78f-394905d1d829",
+      "persistentUuid": "80528e85-af08-4d62-a703-80e080e6adda",
       "width": 190,
-      "x": -3,
-      "y": 252,
+      "x": 129,
+      "y": 341,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,10 +66,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Dirt4",
-      "persistentUuid": "8264bd51-32b4-4f5d-acdc-68e91778f330",
+      "persistentUuid": "d76f7e73-07cb-4f87-ab56-1aaf6bf862ac",
       "width": 1273,
-      "x": -39,
-      "y": 306,
+      "x": 93,
+      "y": 395,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -83,10 +83,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
-      "persistentUuid": "43acbea7-7754-4ab1-9324-defd3b115cef",
+      "persistentUuid": "3128e0a5-a1a8-47c7-8d9d-7ba820375eba",
       "width": 186,
-      "x": -8,
-      "y": 241,
+      "x": 124,
+      "y": 330,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,10 +100,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "TreasureChest",
-      "persistentUuid": "45425dba-d337-408e-8e5c-8c2e8a7b7962",
+      "persistentUuid": "7ba37a54-309a-4c67-9454-6a1465fa5a98",
       "width": 48,
-      "x": 315,
-      "y": 309,
+      "x": 1122,
+      "y": 397,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,31 +113,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 45,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chest",
-      "persistentUuid": "46b3ee8f-355d-4313-bee1-01fa442d22a4",
-      "width": 173,
-      "x": 258,
-      "y": 275,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 100,
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "c305aa4c-913f-4ab1-a245-13b4753a397f",
+      "persistentUuid": "0a88ab63-02ce-4355-9a1f-5df6258cb3d9",
       "width": 189,
-      "x": -2,
-      "y": 170,
+      "x": 130,
+      "y": 259,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -151,10 +134,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "7c3d9908-090f-408d-8faa-53b671d36954",
+      "persistentUuid": "0b98cfce-3b48-4edb-958a-47c8f996d0a2",
       "width": 189,
-      "x": 187,
-      "y": 169,
+      "x": 317,
+      "y": 253,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -168,44 +151,44 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "9536a255-2c51-476b-8d60-6a5e0653de11",
+      "persistentUuid": "a280b7e5-ed78-4de0-a68e-72d2331a5500",
       "width": 190,
-      "x": 187,
+      "x": 319,
+      "y": 347,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Collision",
+      "persistentUuid": "a49daecc-89d8-48bf-a61b-975855068ba4",
+      "width": 186,
+      "x": 311,
+      "y": 330,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveUnderTile",
+      "persistentUuid": "4f1b7b9e-0b0a-4903-90bf-9146b0f19628",
+      "width": 189,
+      "x": 508,
       "y": 258,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 40,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Collision",
-      "persistentUuid": "dca242d9-8a4e-4b5e-8bc9-54c5390f8cf7",
-      "width": 186,
-      "x": 179,
-      "y": 241,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 100,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveUnderTile",
-      "persistentUuid": "df36722c-1682-40b5-9a0b-25c7d41ac73e",
-      "width": 189,
-      "x": 376,
-      "y": 169,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -219,10 +202,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "580a52d9-7d2d-4d9d-9430-7189a999a2c0",
+      "persistentUuid": "119352bc-3493-4d73-be81-b207582f1898",
       "width": 190,
-      "x": 377,
-      "y": 260,
+      "x": 509,
+      "y": 349,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,10 +219,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
-      "persistentUuid": "eaade9b0-f001-4a46-815d-afb219e6fcbf",
+      "persistentUuid": "e68a4dfe-c5c0-429e-a701-43f375abc4a0",
       "width": 186,
-      "x": 374,
-      "y": 240,
+      "x": 506,
+      "y": 329,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -253,10 +236,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "0428eac3-4f8b-4a9c-8353-0f63fb54575c",
+      "persistentUuid": "7890d3a1-f016-47eb-8c5f-90f00741f804",
       "width": 189,
-      "x": 564,
-      "y": 168,
+      "x": 696,
+      "y": 257,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -270,10 +253,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "65a9379b-1965-43d8-82a1-ead0de635f41",
+      "persistentUuid": "ad0f5928-acf1-44ec-8cef-95aad83ae60d",
       "width": 190,
-      "x": 563,
-      "y": 266,
+      "x": 695,
+      "y": 355,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -287,10 +270,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
-      "persistentUuid": "d537c0ee-13ae-49e0-9f5d-8d88fa5d4d93",
+      "persistentUuid": "8fcbb59a-5a2c-4c31-a565-83f407ceba22",
       "width": 186,
-      "x": 560,
-      "y": 241,
+      "x": 692,
+      "y": 330,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -304,10 +287,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "95863ff7-48c2-470d-943d-9a3f0b1f5d2c",
+      "persistentUuid": "39525af8-7a33-48f5-b4e6-c101664a14c3",
       "width": 189,
-      "x": 750,
-      "y": 166,
+      "x": 882,
+      "y": 255,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -321,10 +304,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "af82aba4-fa40-4fe6-bbea-a473e19b7a14",
+      "persistentUuid": "961a9ea8-749e-47f5-9c6a-1dfcb5a67d6c",
       "width": 190,
-      "x": 751,
-      "y": 254,
+      "x": 883,
+      "y": 343,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -338,10 +321,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveBackground",
-      "persistentUuid": "7f35c580-1eb8-44b5-a0f7-a7776aee55b4",
+      "persistentUuid": "2c678767-c704-4e8f-86b8-d208e6913f9b",
       "width": 1457,
-      "x": -218,
-      "y": -2,
+      "x": -86,
+      "y": 87,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -355,11 +338,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
-      "persistentUuid": "11af454f-8ec1-46b5-843a-1c53d91f5610",
+      "persistentUuid": "7dc298cd-54a4-4242-bff9-63fe6181b0d9",
       "width": 240,
-      "x": -238,
-      "y": -2,
-      "zOrder": 5,
+      "x": -105,
+      "y": 76,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -372,10 +355,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "136a0729-a2da-4dad-a408-0c006dcee2d7",
+      "persistentUuid": "e4b8e039-7d74-4c60-b063-c1c8c9aadbb5",
       "width": 189,
-      "x": -198,
-      "y": 168,
+      "x": -66,
+      "y": 257,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -389,10 +372,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "c20d6ffd-f2b8-43e0-9789-dba1a5caf52d",
+      "persistentUuid": "7bfc5d3a-35ae-4d95-8da2-44e5c8d1af00",
       "width": 190,
-      "x": -196,
-      "y": 255,
+      "x": -64,
+      "y": 344,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -406,10 +389,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "71bf5da7-339b-4262-b0a0-90d9ac7bd521",
+      "persistentUuid": "f003e79a-db08-419d-8a50-2208e14234f6",
       "width": 190,
-      "x": 1,
-      "y": 384,
+      "x": 133,
+      "y": 473,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -423,10 +406,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "8bf10060-6277-4dde-afca-bedae7c0df4e",
+      "persistentUuid": "73ea3728-a814-48d0-85c4-f03b6177652c",
       "width": 197,
-      "x": -9,
-      "y": 237,
+      "x": 123,
+      "y": 326,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -440,10 +423,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "af73090a-37c7-48f9-83ea-d36ba8f46101",
+      "persistentUuid": "5a7270d7-3806-4561-8afc-97b2c998a849",
       "width": 189,
-      "x": 186,
-      "y": 233,
+      "x": 320,
+      "y": 323,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -457,10 +440,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "99c6d9d6-fd1c-4f16-81ac-4db485d774a4",
+      "persistentUuid": "f1c3cb95-e6b5-46c3-b0b1-4d1a5ba314b2",
       "width": 190,
-      "x": 185,
-      "y": 383,
+      "x": 317,
+      "y": 472,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -474,10 +457,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "77edd2a9-3a61-479b-84bd-88307ab3f68d",
+      "persistentUuid": "5ebf9a45-f4d1-419a-a0f6-7642ee0d1097",
       "width": 189,
-      "x": 374,
-      "y": 236,
+      "x": 506,
+      "y": 325,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -491,10 +474,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "2e24424c-8dcc-4e9f-9be7-c12f61eda52d",
+      "persistentUuid": "7ba5a15d-24ca-43e4-bf5a-25a1e580bcba",
       "width": 190,
-      "x": 372,
-      "y": 384,
+      "x": 504,
+      "y": 473,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -508,45 +491,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "42dce571-8d22-4611-819b-02f5b28727ad",
+      "persistentUuid": "61a0dfb3-66d4-43ae-b791-c529426ed8ac",
       "width": 189,
-      "x": 563,
-      "y": 234,
+      "x": 695,
+      "y": 323,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 307,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveBackground",
-      "persistentUuid": "7c5ed8b6-30ec-4605-9a63-8b7d19cb978d",
-      "width": 1556,
-      "x": -419,
-      "y": 46,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 307,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveBackground",
-      "persistentUuid": "5dfbaf86-2895-4081-befd-9336e2c944c7",
-      "width": 1751,
-      "x": -502,
-      "y": 434,
-      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -559,10 +508,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "eb69e22e-aedd-4031-8f12-c61f43e41743",
+      "persistentUuid": "765c9924-08a2-4fc1-ba05-6fa3bbe9333e",
       "width": 147,
-      "x": -94,
-      "y": 328,
+      "x": 38,
+      "y": 417,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -576,28 +525,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveBackground",
-      "persistentUuid": "246927de-4a06-4728-b3db-2cf53b917697",
+      "persistentUuid": "c8dc9b48-ebc8-4bce-bd88-77533257113a",
       "width": 175,
-      "x": -193,
-      "y": 193,
+      "x": -61,
+      "y": 282,
       "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 12,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Collision",
-      "persistentUuid": "659b6aed-2b60-4774-91f9-231336d30413",
-      "width": 12,
-      "x": 331,
-      "y": 316,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -610,10 +542,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "d30fee4a-b9a9-463b-9b36-9cde8243af60",
+      "persistentUuid": "eb06d1fe-e018-4b4d-8954-209a22e9b57b",
       "width": 190,
-      "x": 559,
-      "y": 400,
+      "x": 691,
+      "y": 489,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -627,10 +559,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "51b7d146-dad0-49ca-aeab-a1562e84bfc2",
+      "persistentUuid": "a3275ed0-bb1b-43ba-8848-d7adbca73cb4",
       "width": 190,
-      "x": 746,
-      "y": 402,
+      "x": 878,
+      "y": 491,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -644,10 +576,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "2737bd96-8e44-4fa4-91a3-8784c5586798",
+      "persistentUuid": "65d2cef2-eec4-488b-b35c-d6c44a8a0254",
       "width": 189,
-      "x": 751,
-      "y": 220,
+      "x": 883,
+      "y": 309,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -661,10 +593,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Fire_Squid",
-      "persistentUuid": "e4303c80-41a1-4172-b26b-2a04aa4e4146",
+      "persistentUuid": "39144f38-55e7-4c0d-831b-50d98a467953",
       "width": 59,
-      "x": 656,
-      "y": 322,
+      "x": 426,
+      "y": 398,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -677,27 +609,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Gun",
-      "persistentUuid": "00fb9ed6-c01f-4a54-8e01-b7f0ad14d810",
+      "persistentUuid": "789220a2-8c1d-42de-bd2f-efe658e9ad68",
       "width": 0,
-      "x": 16,
-      "y": 358,
+      "x": 148,
+      "y": 447,
       "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Shoot_",
-      "persistentUuid": "bf54bf2a-ae46-4be1-91e0-e65915585976",
-      "width": 0,
-      "x": 460,
-      "y": 295,
-      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -710,27 +626,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Water_Squid",
-      "persistentUuid": "dc2211fc-406d-4df1-b27d-c3e1eb0317f3",
+      "persistentUuid": "df700de8-b677-4b4c-90d4-fda75bb502d5",
       "width": 56,
-      "x": 897,
-      "y": 321,
+      "x": 574,
+      "y": 396,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch",
-      "persistentUuid": "bdc442b4-ead1-4bbc-871c-dcc89e735240",
-      "width": 0,
-      "x": 733,
-      "y": 289,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -743,10 +643,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "0442c846-6581-48cb-9337-0ed0e67f9a8d",
+      "persistentUuid": "3551ea5c-e9fb-423a-925d-23a3237bd394",
       "width": 132,
-      "x": 1140,
-      "y": 332,
+      "x": 1272,
+      "y": 421,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -760,10 +660,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveBackground",
-      "persistentUuid": "2df686d3-cb39-468a-a438-1ae1c31cbec5",
+      "persistentUuid": "4667a6fd-c475-4ed4-81f1-049c1f9af18e",
       "width": 103,
-      "x": 1235,
-      "y": 1,
+      "x": 1367,
+      "y": 90,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -777,10 +677,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveBackground",
-      "persistentUuid": "2ebbbca7-d3a5-4a41-8a8f-b838cff585d1",
+      "persistentUuid": "9ae94ba9-c8d1-48fc-a638-47a32e5c5fe7",
       "width": 111,
-      "x": 1268,
-      "y": 126,
+      "x": 1400,
+      "y": 215,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -794,11 +694,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
-      "persistentUuid": "e178afea-63d2-4c95-b760-03608fc8d2ba",
+      "persistentUuid": "e5e2da87-1a99-4898-8103-4b778903a611",
       "width": 1335,
-      "x": 4,
-      "y": 434,
-      "zOrder": 5,
+      "x": 132,
+      "y": 532,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -811,10 +711,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
-      "persistentUuid": "dfe55c5b-975b-4abd-a2d3-c5d9ecdbf65c",
+      "persistentUuid": "e6983b0b-d98f-483f-8f36-06a8b23eeaf6",
       "width": 1335,
-      "x": 2,
-      "y": 0,
+      "x": 134,
+      "y": 89,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -828,10 +728,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "32210615-5ed0-433b-9581-b837f3205a04",
+      "persistentUuid": "f9c4e010-9535-4004-bc89-e930a9493a7c",
       "width": 189,
-      "x": 939,
-      "y": 218,
+      "x": 1071,
+      "y": 307,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -845,10 +745,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveUnderTile",
-      "persistentUuid": "00b70b81-5d7a-4505-aeaa-c2854aa0ad9d",
+      "persistentUuid": "0ccd2450-b7a0-43e9-ae86-c3346053869f",
       "width": 189,
-      "x": 1126,
-      "y": 218,
+      "x": 1258,
+      "y": 307,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -862,10 +762,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "84c77d47-b86a-4039-af2f-2ff571ff22ea",
+      "persistentUuid": "1384d603-806c-4a90-94c2-69d50f075d96",
       "width": 190,
-      "x": 934,
-      "y": 403,
+      "x": 1066,
+      "y": 492,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -879,10 +779,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveEntrance",
-      "persistentUuid": "d03b4b0a-4aae-4ef0-9580-e82172632f97",
+      "persistentUuid": "1f248cbb-9ace-4aa9-9e54-68f300da173e",
       "width": 190,
-      "x": 1122,
-      "y": 404,
+      "x": 1254,
+      "y": 493,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -896,10 +796,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Collision",
-      "persistentUuid": "9812c01f-a1fe-4bcb-b463-6a7688b0e6d0",
+      "persistentUuid": "2729e793-1cee-47b1-8906-f608d864a68e",
       "width": 139,
-      "x": 1239,
-      "y": 195,
+      "x": 1371,
+      "y": 284,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -912,10 +812,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "TrailPurple",
-      "persistentUuid": "06f359ec-e35c-4a22-854d-a0ef2aa7686f",
+      "persistentUuid": "2b6927bc-4075-4d1c-bf71-d7f5b807c96c",
       "width": 0,
-      "x": 1120,
-      "y": 301,
+      "x": 1252,
+      "y": 390,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -929,10 +829,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "TrailPurple",
-      "persistentUuid": "b0312f56-ecf8-43a6-bf10-8f7dc63904be",
+      "persistentUuid": "2790053a-d367-46c3-be0d-bddc735e2c3e",
       "width": 128,
-      "x": -61,
-      "y": 300,
+      "x": 88,
+      "y": 389,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -945,11 +845,195 @@
       "keepRatio": true,
       "layer": "",
       "name": "MagicSparkleTrail",
-      "persistentUuid": "3efac0e1-9515-4f49-8e78-518979febb2f",
+      "persistentUuid": "53943c46-dca7-4e40-8796-7ef00a06aa2f",
       "width": 0,
-      "x": 1194,
-      "y": 346,
+      "x": 1326,
+      "y": 435,
       "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 362,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "12b0e9af-ce45-4d7a-9b8f-59573c215bc8",
+      "width": 1243,
+      "x": 133,
+      "y": 534,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 911,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CaveBackground",
+      "persistentUuid": "7b9fd104-e559-46d2-9a5f-496a88c9e717",
+      "width": 591,
+      "x": -445,
+      "y": 533,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Enemiesahead",
+      "persistentUuid": "b82c4757-c9ea-4b70-b5b7-d11ccdd82903",
+      "width": 0,
+      "x": 186,
+      "y": 362,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fire_Squid",
+      "persistentUuid": "1ba70394-a3d9-4fa9-a535-b8293b772505",
+      "width": 59,
+      "x": 424,
+      "y": 441,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Water_Squid",
+      "persistentUuid": "c46d82be-5a86-48a7-bef4-dfaed0f4fedd",
+      "width": 56,
+      "x": 575,
+      "y": 441,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fire_Squid",
+      "persistentUuid": "fda168f9-d981-4679-ac6b-2b6353328b09",
+      "width": 59,
+      "x": 787,
+      "y": 404,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fire_Squid",
+      "persistentUuid": "6781edd7-aec2-4962-884f-a167f7b42180",
+      "width": 59,
+      "x": 787,
+      "y": 445,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Water_Squid",
+      "persistentUuid": "09e5e48a-b481-487a-bb2b-36def3544069",
+      "width": 56,
+      "x": 899,
+      "y": 401,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Water_Squid",
+      "persistentUuid": "8e3de849-cbbd-4e1a-826d-75e2c9462ac9",
+      "width": 56,
+      "x": 900,
+      "y": 445,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LightningSpell",
+      "persistentUuid": "8f4eace2-5713-46ea-a6f9-19273e60cb9d",
+      "width": 0,
+      "x": 1138,
+      "y": 419,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ChestQuestion",
+      "persistentUuid": "12b842eb-689b-4b70-8181-448878a291ef",
+      "width": 0,
+      "x": 1050,
+      "y": 363,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -957,71 +1041,52 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "ede84ce6b10b6c91e0d54325aeb8fde6c01178d4f3033df518c82755aaac7a9c",
-      "name": "InventorySlotRing7",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Enemiesahead",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Inventory Slot Ring7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 5
-                      },
-                      {
-                        "x": 27,
-                        "y": 5
-                      },
-                      {
-                        "x": 27,
-                        "y": 27
-                      },
-                      {
-                        "x": 5,
-                        "y": 27
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "string": "Be cautious\nEnemies Ahead ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Be cautious\nEnemies Ahead ",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 15,
+        "color": "248;231;28"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "InventorySlotRing7"
+        "objectName": "Enemiesahead"
       }
     ]
   },
@@ -1038,58 +1103,63 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "LightningSpell",
-                "point",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "value": "KeyPressed"
+            "value": "DepartScene"
           },
           "parameters": [
-            "",
-            "l"
+            ""
           ]
-        },
-        {
-          "type": {
-            "value": "StringVariable"
-          },
-          "parameters": [
-            "element",
-            "=",
-            "\"Fire\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SetStringVariable"
+            "value": "ResetTimer"
           },
           "parameters": [
-            "element",
-            "=",
-            "\"Lightning\""
+            "",
+            "\"Ahead\"\n"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "LightningSpell"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ChestQuestion"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Ahead\"\n",
+            ">=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Enemiesahead"
           ]
         }
       ]
@@ -1161,6 +1231,122 @@
             "",
             "\"ECommand\""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "LightningSpell",
+            "point",
+            "=",
+            "1\n"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "ChestQuestion",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "\"Chest",
+            "\"chestquestion\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"chestquestion\"",
+            ">=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ChestQuestion"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "LightningSpell",
+                "point",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "l"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "element",
+                "=",
+                "\"Fire\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "element",
+            "=",
+            "\"Lightning\""
+          ]
         }
       ]
     },
@@ -1230,184 +1416,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"ECommand\"",
-            ">=",
-            "4"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Chest"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Fire_Squid",
-                "160",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Shoot_",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"Firequestion\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"Firequestion\"",
-            ">=",
-            "4"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Shoot_"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"Switchoption\"\n",
-            ">=",
-            "4"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Switch"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Fire_orb",
-                "Water_Squid",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Water_Squid",
-                "125",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Switch",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"Switchoption\"\n"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "BuiltinCommonInstructions::And"
           },
           "parameters": [],
@@ -1442,7 +1450,7 @@
           },
           "parameters": [
             "",
-            "\"Lightning\"",
+            "\"Bossfight\"",
             ""
           ]
         }

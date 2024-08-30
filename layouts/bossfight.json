@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6622955665506384,
+    "zoomFactor": 0.6406912462476485,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -559,15 +559,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 16,
       "keepRatio": true,
       "layer": "",
       "name": "BossHealthBar",
       "persistentUuid": "37fab417-a696-4c4d-8022-773afec61221",
-      "width": 0,
-      "x": 223,
-      "y": 415,
+      "width": 62,
+      "x": 313,
+      "y": 515,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -616,8 +617,8 @@
       "name": "Game_Over",
       "persistentUuid": "0ddb4841-b412-4078-b165-305f423b3599",
       "width": 548,
-      "x": 918,
-      "y": 498,
+      "x": 926,
+      "y": 503,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -632,8 +633,8 @@
       "name": "Respawn",
       "persistentUuid": "9126da46-b2d9-4b79-b76d-f96e770280ad",
       "width": 0,
-      "x": 935,
-      "y": 553,
+      "x": 934,
+      "y": 559,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -2380,18 +2381,6 @@
         },
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -2414,6 +2403,18 @@
           "parameters": [
             "",
             "\"30seconds\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "c49ea2edf18b99d4ccc5e4d60a0039cc8b08e2648bda3ef6cac2ea79057f05c6_06 - fire breathing turtle boss.aac",
+            "",
+            "",
+            ""
           ]
         }
       ]
