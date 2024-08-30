@@ -1009,7 +1009,7 @@
         "alwaysLoaded": false,
         "file": "assets/Squid Space Enemy2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Squid Space Enemy2.png\"}",
         "name": "Squid Space Enemy",
         "smoothed": true,
         "userAdded": true
@@ -1336,6 +1336,91 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/c49ea2edf18b99d4ccc5e4d60a0039cc8b08e2648bda3ef6cac2ea79057f05c6_06 - fire breathing turtle boss.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire_Spawner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fire_Spawner",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire_Spawner2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fire_Spawner2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Water_Spawner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Water_Spawner",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lightning_Spawner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lightning_Spawner",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fire_Spawner3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fire_Spawner3.png\"}",
+        "name": "Fire_Spawner3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Water_Mob.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Water_Mob",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health_01_Bar01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "a3178a0b43f6cc9ae792638abe7d209f714b0eca84dc6a582d59131851da1be7_Health_01_Bar01.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/a3178a0b43f6cc9ae792638abe7d209f714b0eca84dc6a582d59131851da1be7_Health_01_Bar01.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1416,16 +1501,16 @@
           "RandomPosition": false
         },
         {
+          "ignoreDefaultControls": true,
+          "maxSpeed": 75,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "maxSpeed": 70,
           "acceleration": 900000,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
           "deceleration": 900000,
-          "ignoreDefaultControls": false,
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
@@ -3964,6 +4049,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/lightning"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/miniboss"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

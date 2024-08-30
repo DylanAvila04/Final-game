@@ -2724,7 +2724,7 @@
       "isLocked": false,
       "name": "Collision",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
