@@ -1484,6 +1484,20 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
           "name": "Wood Bar Border.png"
         }
+      },
+      {
+        "file": "assets/Confirm_04.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

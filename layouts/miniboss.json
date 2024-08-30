@@ -431,6 +431,55 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "Fire_Spawner_Health",
+      "persistentUuid": "0f61c491-0336-460d-91cb-4d64aab95114",
+      "width": 0,
+      "x": 1687,
+      "y": 114,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "Water_Spawner_Health",
+      "persistentUuid": "3ad6f222-79f3-424c-ad96-35dc5f7f1d46",
+      "width": 0,
+      "x": 1684,
+      "y": 694,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 45,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "Lightning_Spawner_Health",
+      "persistentUuid": "bd043441-cb03-4a7a-906e-a69a884e82d7",
+      "width": 258,
+      "x": 1671,
+      "y": 391,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -481,7 +530,14 @@
       "name": "Water_Spawner",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 50
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -515,7 +571,7 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 3,
+          "SpawnPeriod": 10,
           "OffsetX": 0,
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
@@ -584,7 +640,14 @@
       "name": "Lightning_Spawner",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 50
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -618,7 +681,7 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 3,
+          "SpawnPeriod": 10,
           "OffsetX": 0,
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
@@ -687,7 +750,14 @@
       "name": "Fire_Spawner",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 50
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -721,7 +791,7 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 3,
+          "SpawnPeriod": 10,
           "OffsetX": 0,
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
@@ -1196,8 +1266,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 50,
+        "InitialValue": 50
       },
       "childrenContent": {
         "Background": {
@@ -1235,7 +1305,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "8 / 16",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 16,
@@ -1258,7 +1328,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "8 / 16",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 16,
@@ -1318,8 +1388,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 16,
-        "InitialValue": 8
+        "MaxValue": 50,
+        "InitialValue": 50
       },
       "childrenContent": {
         "Background": {
@@ -1357,7 +1427,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "8 / 16",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 16,
@@ -1380,7 +1450,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "8 / 16",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 16,
@@ -1434,8 +1504,8 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "InitialValue": 8,
-        "MaxValue": 16,
+        "InitialValue": 50,
+        "MaxValue": 50,
         "BarTopPadding": 8,
         "BarRightPadding": 10,
         "BarBottomPadding": 8,
@@ -1478,7 +1548,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "8 / 16",
+          "string": "",
           "font": "",
           "textAlignment": "center",
           "characterSize": 16,
@@ -1501,7 +1571,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "8 / 16",
+            "text": "",
             "font": "",
             "textAlignment": "center",
             "characterSize": 16,
@@ -1603,38 +1673,35 @@
         },
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "NumberObjectVariable"
           },
           "parameters": [
             "Water_Spawner",
             "Health",
             "<=",
-            "0",
-            ""
+            "0"
           ]
         },
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "NumberObjectVariable"
           },
           "parameters": [
             "Fire_Spawner",
             "Health",
             "<=",
-            "0",
-            ""
+            "0"
           ]
         },
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "NumberObjectVariable"
           },
           "parameters": [
             "Lightning_Spawner",
             "Health",
             "<=",
-            "0",
-            ""
+            "0"
           ]
         }
       ],
@@ -1700,6 +1767,18 @@
             "Water_Orb",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "hitHurt.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1741,6 +1820,18 @@
             "Fire_orb",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "hitHurt.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1780,6 +1871,18 @@
           },
           "parameters": [
             "LightningSpell",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "hitHurt.wav",
+            "",
+            "",
             ""
           ]
         }
@@ -1899,15 +2002,13 @@
       "actions": [
         {
           "type": {
-            "value": "Health::Health::Hit"
+            "value": "SetNumberObjectVariable"
           },
           "parameters": [
-            "Water_Mob",
+            "Water_Spawner",
             "Health",
-            "5",
-            "",
-            "",
-            ""
+            "-",
+            "5"
           ]
         },
         {
@@ -1918,6 +2019,18 @@
             "Water_Orb",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "hitHurt.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1940,15 +2053,13 @@
       "actions": [
         {
           "type": {
-            "value": "Health::Health::Hit"
+            "value": "SetNumberObjectVariable"
           },
           "parameters": [
             "Fire_Spawner",
             "Health",
-            "5",
-            "",
-            "",
-            ""
+            "-",
+            "5"
           ]
         },
         {
@@ -1957,6 +2068,18 @@
           },
           "parameters": [
             "Fire_orb",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "hitHurt.wav",
+            "",
+            "",
             ""
           ]
         }
@@ -1981,15 +2104,13 @@
       "actions": [
         {
           "type": {
-            "value": "Health::Health::Hit"
+            "value": "SetNumberObjectVariable"
           },
           "parameters": [
             "Lightning_Spawner",
             "Health",
-            "5",
-            "",
-            "",
-            ""
+            "-",
+            "5"
           ]
         },
         {
@@ -2000,6 +2121,18 @@
             "LightningSpell",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "hitHurt.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -2008,14 +2141,13 @@
       "conditions": [
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "NumberObjectVariable"
           },
           "parameters": [
             "Water_Spawner",
             "Health",
             "<=",
-            "0",
-            ""
+            "0"
           ]
         }
       ],
@@ -2028,6 +2160,15 @@
             "Water_Spawner",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Water_Spawner_Health",
+            ""
+          ]
         }
       ]
     },
@@ -2036,14 +2177,13 @@
       "conditions": [
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "NumberObjectVariable"
           },
           "parameters": [
             "Fire_Spawner",
             "Health",
             "<=",
-            "0",
-            ""
+            "0"
           ]
         }
       ],
@@ -2056,6 +2196,15 @@
             "Fire_Spawner",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Fire_Spawner_Health",
+            ""
+          ]
         }
       ]
     },
@@ -2064,14 +2213,13 @@
       "conditions": [
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "NumberObjectVariable"
           },
           "parameters": [
             "Lightning_Spawner",
             "Health",
             "<=",
-            "0",
-            ""
+            "0"
           ]
         }
       ],
@@ -2082,6 +2230,15 @@
           },
           "parameters": [
             "Lightning_Spawner",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Lightning_Spawner_Health",
             ""
           ]
         }
@@ -2133,6 +2290,204 @@
             "ObjectSpawner",
             "Lightning_Mob",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Lightning_Spawner",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Lightning_Spawner_Health",
+            "Lightning_Spawner.X()",
+            "Lightning_Spawner.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "Lightning_Spawner",
+            "Lightning_Spawner_Health"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Lightning_Spawner",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "Lightning_Spawner",
+            "Lightning_Spawner_Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "Lightning_Spawner_Health",
+            "Resizable",
+            "=",
+            "Lightning_Spawner.Variable(health)*5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Fire_Spawner",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Fire_Spawner_Health",
+            "Fire_Spawner.X()",
+            "Fire_Spawner.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "Fire_Spawner",
+            "Fire_Spawner_Health"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Fire_Spawner",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "Fire_Spawner",
+            "Fire_Spawner_Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "Fire_Spawner_Health",
+            "Resizable",
+            "=",
+            "Fire_Spawner.Variable(health)*5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Water_Spawner",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Water_Spawner_Health",
+            "Water_Spawner.X()",
+            "Water_Spawner.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "Water_Spawner",
+            "Water_Spawner_Health"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Water_Spawner",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "Water_Spawner",
+            "Water_Spawner_Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "Lightning_Spawner_Health",
+            "Resizable",
+            "=",
+            "Water_Spawner.Variable(health)*5"
           ]
         }
       ]
@@ -2940,6 +3295,14 @@
             "\"Background\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Collision"
+          ]
         }
       ]
     },
@@ -2993,6 +3356,18 @@
             "=",
             "\"Water\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -3035,6 +3410,18 @@
             "=",
             "\"Water\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -3076,6 +3463,18 @@
             "element",
             "=",
             "\"Fire\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -3119,6 +3518,18 @@
             "=",
             "\"Fire\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -3161,6 +3572,18 @@
             "=",
             "\"Lightning\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -3202,6 +3625,18 @@
             "element",
             "=",
             "\"Lightning\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+            "",
+            "",
+            ""
           ]
         }
       ]
