@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.6762448643325025,
+    "zoomFactor": 0.9227465364204567,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -84,8 +84,8 @@
       "name": "NewText",
       "persistentUuid": "409c5c68-bf30-4d92-8a94-b20f9b231d9a",
       "width": 158,
-      "x": 442,
-      "y": 310,
+      "x": 481,
+      "y": 264,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,15 +129,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1131,
+      "height": 1060,
       "keepRatio": true,
       "layer": "",
-      "name": "AcidCaveBrightDesatSurface",
-      "persistentUuid": "b61ae49d-dd22-4e91-b961-420a0cd2dadb",
-      "width": 1708,
-      "x": 0,
-      "y": 4,
-      "zOrder": 0,
+      "name": "Grass1",
+      "persistentUuid": "dd184ddc-181f-4451-9a70-fedf3a30459c",
+      "width": 1923,
+      "x": -4,
+      "y": 11,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -244,6 +244,17 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "6df0cff98feb6b117da8ff6c96867b65517749f8c3946a162f658c56d8e8a0dc",
+      "height": 512,
+      "name": "Grass1",
+      "texture": "tiled_Grass1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -254,6 +265,9 @@
       },
       {
         "objectName": "AcidCaveBrightDesatSurface"
+      },
+      {
+        "objectName": "Grass1"
       }
     ]
   },
