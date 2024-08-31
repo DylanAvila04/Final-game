@@ -1179,7 +1179,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "r"
               ]
             },
             {
@@ -1189,7 +1189,7 @@
               "parameters": [
                 "Player",
                 "TreasureChest",
-                "40",
+                "70",
                 ""
               ]
             }
@@ -1407,6 +1407,18 @@
             "element",
             "=",
             "\"Lightning\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "fab96ba6d7509214d1b3168c4c6a68c827136d3da1946df597c3dcdfe6a06538_Confirm_04.aac",
+            "",
+            "",
+            ""
           ]
         }
       ]
